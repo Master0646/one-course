@@ -43,6 +43,7 @@ body {
     height: 18px;
     background: url("../images/logo_white.png") no-repeat;
     background-size: 135px auto;
+    cursor: pointer;
 }
 
 .class-navbar-middle {

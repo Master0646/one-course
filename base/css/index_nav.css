@@ -35,6 +35,7 @@
     height: 30px;
     background: url("../images/logo_blue.png") no-repeat;
     background-size: 210px auto;
+    cursor: pointer;
 }
 
 .navbar-right {
@@ -42,7 +43,7 @@
     width: auto;
     position: absolute;
     right: 0;
-    margin: -2px 0 0;
+    margin: 0;
 }
 
 .navbar-right>li {
