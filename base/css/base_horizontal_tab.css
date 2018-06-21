@@ -1,11 +1,12 @@
-.tabs::before {
+.horizontal-tab>.tabs::before {
     display: table;
     line-height: 0;
     content: "";
 }
 
-.tabs {
+.horizontal-tab>.tabs {
     display: block;
+    min-width: 400px;
     list-style: none;
     margin-bottom: 20px;
     margin-left: 0;
@@ -14,14 +15,14 @@
     font-weight: bold;
 }
 
-.tabs>li {
+.horizontal-tab>.tabs>li {
     display: inline-block;
     line-height: 20px;
     margin: 0 0 -1px;
 }
 
 
-.tabs>li>a {
+.horizontal-tab>.tabs>li>a {
     display: block;
     padding-right: 12px;
     padding-left: 12px;
@@ -33,7 +34,7 @@
     cursor: pointer;
 }
 
-.tabs>.active>a {
+.horizontal-tab>.tabs>.active>a {
     color: #555;
     cursor: default;
     background-color: #fff;
