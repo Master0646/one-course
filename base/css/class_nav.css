@@ -1,6 +1,10 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    margin: 0;
+}
 .navbar ul {
     padding: 0;
 }
@@ -10,29 +14,30 @@
 }
 
 .navbar {
-    width: 1000px;
-    margin: 0 auto;
+    width: 100%;
+    margin: -10px auto 0;
     /* border-bottom: solid 1px gray; */
+    background: #3e7aab;
 }
 
 .navbar-inner {
     width: 800px;
-    height: 35px;
-    margin: 20px auto 0;
+    height: 33px;
+    margin: 10px auto 0;
     position: relative;
 }
 
 .navbar-header {
     display: inline-block;
+    left: 20px;
     width: 210px;
-    /* margin-top: 12px; */
 }
 
 .navbar-brand {
     display: block;
     width: 210px;
     height: 30px;
-    background: url("../images/logo_blue.png") no-repeat;
+    background: url("../images/logo_white.png") no-repeat;
     background-size: 210px auto;
 }
 
