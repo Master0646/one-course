@@ -10,7 +10,8 @@
 }
 
 .navbar {
-    width: 1000px;
+    width: 100%;
+    min-width: 1000px;
     margin: 0 auto;
     /* border-bottom: solid 1px gray; */
 }
