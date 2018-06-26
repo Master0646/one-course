@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <title>用户</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/user.css" />
+
+</head>
+
+<body>
+    
+    <nav id="navbar" class="navbar">
+        <div class="navbar-inner">
+            <div class="navbar-header">
+                <a href="base_blue_nav.html" class="navbar-brand"></a>
+            </div>
+            <ul class="navbar-nav class-navbar-middle">
+                <li class="class-navbar-items dropdown">
+                    <a>
+                        <span>PA 102</span>
+                        <span class="downarrow"></span>
+                    </a>
+                    <ul class="dropdown-menu"></ul>
+                </li>
+                <li class="class-navbar-items">
+                    <a>Q & A</a>
+                </li>
+                <li class="class-navbar-items">
+                    <a>课程资溝</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav class-navbar-right">
+                <li>
+                    <img  class="navbar-profile-picture" src="images/default_user.png">
+                </li>
+                <li class="class-navbar-items class-navbar-username">
+                    <a>username</a>
+                </li>
+                <li class="class-navbar-setting-wraper">
+                    <div class="class-navbar-setting"></div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- <script src="js/.js"></script> -->
+    <div class="content">
+        <div class='content-menu'>
+            <ul class='menu-items'>
+                <li class='menu-item' id="UI"><p>个人信息</p></li>
+                <li class='menu-item' id="CC"><p>课程选择</p></li>
+            </ul>
+        </div>
+        <div class='content-main'>
+            <div id="classes-choose">
+                <h1>课程选择</h1>
+                <div class='choose'>
+                    <p>请选择你的课程</p>
+                    <form>
+                        <select class="school">
+                            <option value="school1">school1</option>
+                            <option value="school2">school2</option>
+                            <option value="school3">school3</option>
+                            <option value="school4">school4</option>
+                            <option value="school5">school5</option>
+                        </select>
+                        <select class='major'>
+                            <option value="major1">major1</option>
+                            <option value="major2">major2</option>
+                            <option value="major3">major3</option>
+                            <option value="major4">major4</option>
+                            <option value="major5">major5</option>
+                        </select>
+                        <select class='class'>
+                            <option value="class1">class1</option>
+                            <option value="class2">class2</option>
+                            <option value="class3">class3</option>
+                            <option value="class4">class4</option>
+                            <option value="class5">class5</option>
+                        </select>
+                        <p>你选择的课程：</p><p>CLASS TEMP</p>
+                        <input type="submit" name="添加课程">
+                    </form>
+                </div>
+            </div>
+            <div id="user-information">
+                <h1>个人信息</h1>
+                <div class="info-item">
+                    <b>用户名：</b>
+                    <p>Username</p>
+                </div>
+                <div class="info-item">
+                    <b>已选课程：</b>
+                    <ul>
+                        <li><p>Class 1</p></li>
+                        <li><p>Class 2</p></li>
+                    </ul>
+                </div>
+                <div class="info-item">
+                    <b>邮箱：</b>
+                    <p>Example@example.com</p>
+                </div>
+                <div class="info-item">
+                    <b>入学年份：</b>
+                    <p>XXXX-XX-XX</p>
+                </div>
+                <div class="info-item">
+                    <b>院系专业：</b>
+                    <p>XX学院 XX专业</p>
+                </div>
+                <button id="edit-info"><p>编辑</p></button>
+            </div>
+            <div id="user-information-edit">
+                <h1>个人信息编辑</h1>
+                <form>
+                    <div class="input-item">
+                        <p>邮箱：</p><input type="text" value="请输入邮箱地址" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '请输入邮箱地址';}" >
+                    </div>
+                    <div class="input-item">
+                        <p>入学年份：</p><input type="text" value="请输入入学年份" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '请输入入学年份';}" >
+                    </div>
+                    <div class="input-item">
+                        <p>院系专业：</p><input type="text" value="请输入院系专业" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '请输入院系专业';}" >
+                    </div>
+                    <input type="submit" name="提交" action = 'URL' method="post" target="_blank">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/user.js"></script>
+</body>
+
+</html>
