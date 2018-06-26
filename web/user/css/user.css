@@ -9,6 +9,7 @@ html{
 body {
     height: 100%;
     margin: 0;
+    background-color: #F2F2F2
 }
 
 .navbar ul {
@@ -177,121 +178,230 @@ body {
     border-color: #428bca;
 }
 
-.content{
-    width:100%;
-    /*height: 100%;*/
+.main-area{
+    width:70%;
     padding: 0;
     position: absolute;
     top:40px;
+    left: 15%;
     bottom: 0;
     align-items: top;  
     justify-content: center; 
+    background-color: #F2F2F2;
 }
 
-.content > .content-menu{
+#brief-info{
+    width: 100%;
+    height: 120px;
+    margin: 10px;
+    background-color: #F2F2F2;
+}
+
+#head-img{
     position: absolute;
-    left:0;
-    top:0;
+    z-index: 999;
+    left: 0;
+    width: 120px;
+    height: 120px;
+}
+
+#brief-info-content{
+    position: absolute;
+    left: 150px;
+}
+
+#main-bar{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    top: 80px;
+    background-color: #FFF;
+}
+#main-bar>#main-bar-1{
+    position: absolute;
+    left: 150px;
+    top: 30px;
+}
+#main-bar>#main-bar-2{
+    position: absolute;
+    left: 300px;
+    top: 30px;
+}
+
+#brief-info-content>h1, #brief-info-content>h3{
+    margin: 0;
+}
+
+#detailed-info{
+    position: absolute;
+    top: 150px;
     bottom: 0;
     width: 15em;
-    height: 100%;
-    margin: 0;
-    padding-top: 20px; 
-    font-size: 1em;
-    background-color: #3e7aab;
-    float: left;
+    padding: 10px 10px 10px 0;
+    background-color: #F2F2F2;
 }
-.menu-items{
-    margin: 0;
-    padding: 0;
+#detailed-info-1, #detailed-info-2{
     width: 100%;
-    height: 40px;
-}
-
-.menu-items>#CC{
-    list-style: none;
-    text-align: center;
-    padding-bottom: 10px;
-    width: 100%;
-    height: 100%;
-    color: #FFF;
-}
-
-.menu-items>#UI{
-    list-style: none;
-    text-align: center;
-    padding-bottom: 10px;
-    width: 100%;
-    height: 100%;
-    color: #B2DFEE;
-}
-
-.content > .content-main{
-    position: absolute;
-    top: 0;
-    left: 15em;
-    bottom: 0;
-    right: 0;
-    height: 100%;
-    margin: 0;
+    margin-bottom: 20px; 
     padding: 10px;
     background-color: #FFF;
-    border: double;
-    float: right;
 }
 
-#classes-choose{
-    display: none;
-    margin: 40px auto;
-    width: 40em;
-    padding: 0 20px 20px 20px;
-    border: double;
+.detailed-info-item>p, .detailed-info-item>b{
+    font-size: 0.5em;
+    color: #696969;
+    display: inline-block;
 }
 
-#user-information{
+.detailed-info-display-item>p, .detailed-info-display-item>b{
+    font-size: 1em;
+    margin-left:20px;
+    color: #696969;
+    display: inline-block;
+}
+
+.detailed-info-edit-item{
     display: block;
-    margin: 40px auto;
-    width: 40em;
-    padding: 0 20px 20px 20px;
-    border: double;
+    margin: 10px auto;
 }
 
-#user-information-edit{
-    display: none;
-    margin: 40px auto;
-    width: 40em;
-    padding: 0 20px 20px 20px;
-    border: double;
+.detailed-info-edit-item>b{
+    display: inline-block;
+    font-size: 1em;
+    height: 30px;
+    margin: 10px 0 10px 20px;
+    color: #696969;
 }
 
-#user-information>h1, #user-information-edit>h1, #classes-choose>h1{
+.detailed-info-edit-item input[type="text"]{
+    display: inline-block;
+    margin: 10px;
+    height: 30px;
+    width: 20em;
+}
+
+#profile-display-area>h3, #profile-edit-area>h3, #classes-edit-area>h3, #class-choose-area>h3{
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+}
+
+
+#btn-profile-edit, #btn-classes-edit, #btn-class-add, #btn-class-edit{
+    display: block;
+    margin: 10px auto;
+    text-decoration:none;  
+    background:#428bca;  
+    color:#f2f2f2;  
+    max-width: 15em;
+      
+    padding: 10px 30px 10px 30px;  
+    text-align: center;
+    font-size:8px;  
+    font-family: 微软雅黑,宋体,Arial,Helvetica,Verdana,sans-serif;  
+    font-weight:bold;  
+    border-radius:3px;  
+      
+    -webkit-transition:all linear 0.30s;  
+    -moz-transition:all linear 0.30s;  
+    transition:all linear 0.30s;  
+}
+#btn-profile-edit:hover, #btn-classes-edit:hover, #btn-class-add:hover{ background:#385f9e; }  
+
+#detailed-info-2>b{
+    font-size: 0.8em;
+    color: #696969;
+}
+
+#detailed-info-2>ul{
+    padding-left: 10px; 
+    list-style: none;
+    font-size: 0.5em;
+    color: #696969;
+}
+
+#detailed-info-2>ul>li{
+    margin: 10px 0;
+}
+
+#content-area{
+    position: absolute;
+    min-width: 40em;
+    top: 150px;
+    bottom: 0;
+    left: 15em;
+    right: 0;
+    padding: 10px 0 10px 10px;
+    background-color: #F2F2F2;
+}
+
+#class-choose-area{
+    display: block;
     width: 100%;
-    text-align: center;
+    height: 300px;
+    padding: 10px 10%;
+    background-color: #FFF;
 }
-#user-information button, #user-information-edit input[type="submit"], #classes-choose input[type="submit"]{
-    display: flex;
-    text-align: center;
-    padding: 0 30px;
-    margin: 5px auto;
+#profile-display-area{
+    display: block; 
+    width: 100%;
+    height: 400px;
+    padding: 10px 10%;
+    background-color: #FFF;
+}
+#profile-edit-area{
+    display: block;
+    width: 100%;
+    height: 500px;
+    padding: 10px 10%;
+    background-color: #FFF;
+}
+#classes-edit-area{
+    display: block;
+    width: 100%;
+    height: 600px;
+    padding: 10px 10%;
+    background-color: #FFF;
 }
 
-.info-item>b{
-    display: inline-block;
-}
-.info-item>p{
-    display: inline-block;
-}
-
-#user-information-edit .input-item{
+.class-choose-item{
+    display: block;
+    margin: 20px auto;
+    height: 30px;
     width: 30em;
-    display: flex;
-    margin: 2em auto;
 }
-.input-item>p{
-    width: 20%;
+.class-choose-item>b{
     display: inline-block;
+    margin: 0;
+    height: 30px;
+    width: 50px;
+    color: #696969;
 }
-.input-item>input{
+.class-choose-item>select{
     display: inline-block;
     width: 80%;
+    height: 30px;
+}
+#btn-class-add{
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.classes-edit-item{
+    width: 100%;
+    margin: 10px;
+}
+
+.classes-edit-item>input{
+    margin-right: 10%;
+    display: inline-block;
+}
+.classes-edit-item>b{
+    margin-right: 5%;
+    display: inline-block;
+}
+.classes-edit-item>p{
+    display: inline-block;
 }
