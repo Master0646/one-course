@@ -20,7 +20,7 @@
                     <button type="button" class="btn default-btn" onclick="javascrtpt:window.location.href='register.html'">注册</button>
                 </li>
                 <li>
-                    <button type="button" class="btn default-btn" onclick="javascrtpt:window.location.href='home.html'">登录</button>
+                    <button type="button" class="btn default-btn" onclick="javascrtpt:window.location.href='index.html'">登录</button>
                 </li>
             </ul>
         </div>
@@ -40,18 +40,18 @@
         </div>
         <div class="login">
             <div class="login-area">
-                <div class="head"><img src="images/login.png" class="img-responsive" alt="" /></div>
-                <form>
-                    <input type="text" class="text" value="User Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'User Name';}" >
-                    <input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}">
+                <div class="head"><img src="images/login.png" class="img-responsive"/></div>
+                <form id='login-data'>
+                    <input type="text" id='email' name="email" class="text" value="Email Address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email Address';}" >
+                    <input type="password" id='password' name="password" value="" onfocus="this.value = '';" >
                     <div class='btns-submit'>
-                        <div class="btn-signin"><input type="submit" onclick="myFunction()" value="登陆" ></div>
+                        <div class="btn-signin"><input id='submit' type="button" value="登陆"/></div>
                     </div>
                 </form>
             </div>
         </div>
     </div>
-
+	<script type="text/javascript" src="js/index.js"></script>
 </body>
 
 </html>

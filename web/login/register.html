@@ -20,7 +20,7 @@
                     <button type="button" class="btn default-btn" onclick="javascrtpt:window.location.href='register.html'">注册</button>
                 </li>
                 <li>
-                    <button type="button" class="btn default-btn" onclick="javascrtpt:window.location.href='home.html'">登录</button>
+                    <button type="button" class="btn default-btn" onclick="javascrtpt:window.location.href='index.html'">登录</button>
                 </li>
             </ul>
         </div>
@@ -40,26 +40,26 @@
         </div>
         <div class="login">
             <div class="login-area">
-                <div class="head"><img src="images/register.png" class="img-responsive" alt="" /></div>
+                <div class="head"><img src="images/register.png" class="img-responsive"/></div>
                 <form>
-                    <input class='username' type="text" value="User Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'User Name';}" >
-                    <input class='password' type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}">
+                    <input class='username' name='email' id='email' type="text" value="Email Address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email Address';}" >
+                    <input class='password' name='password' id='password' type="password" value="" onfocus="this.value = '';" >
                     <div class='radio-identity'>
                         <div class="radio-identity-item">
-                            <input class='identity' type="radio" name="identity" value="教师"><p class='radio-option'>教师 / TA</p>
+                            <input class='identity' id='identity' type="radio" name="identity" value="INSTRUCTOR"><p class='radio-option'>教师 / TA</p>
                         </div>
                         <div class="radio-identity-item">
-                            <input class='identity' type="radio" name="identity" value="学生"><p class='radio-option'>学生</p>
+                            <input class='identity' type="radio" name="identity" value="STUDENT"><p class='radio-option'>学生</p>
                         </div>
                     </div>
                     <div class='btns-submit'>
-                        <div class="btn-signup"><input type="submit" onclick="myFunction()" value="注册" ></div>
+                        <div class="btn-signup"><input type="button" id="submit" value="注册" ></div>
                     </div>
                 </form>
             </div>
         </div>
     </div>
-
+    <script type="text/javascript" src="js/register.js"></script>
 </body>
 
 </html>
