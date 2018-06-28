@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <title>课程资源</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/base_blue_nav.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="css/resource.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="css/base_horizontal_tab.css" />
+</head>
+
+<body>
+    <nav id="navbar" class="navbar">
+        <div class="navbar-inner">
+            <div class="navbar-header">
+                <a href="base_blue_nav.html" class="navbar-brand"></a>
+            </div>
+            <ul class="navbar-nav class-navbar-middle">
+                <li class="class-navbar-items dropdown">
+                    <a>
+                        <span>PA 102</span>
+                        <span class="downarrow"></span>
+                    </a>
+                    <ul class="dropdown-menu"></ul>
+                </li>
+                <li class="class-navbar-items">
+                    <a>Q & A</a>
+                </li>
+                <li class="class-navbar-items">
+                    <a>课程资源</a>
+                </li>
+				<li class="class-navbar-items">
+                    <a>作业上传</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav class-navbar-right">
+                <li>
+                    <img  class="navbar-profile-picture" src="images/default_user.png">
+                </li>
+                <li class="class-navbar-items class-navbar-username">
+                    <a>username</a>
+                </li>
+                <li class="class-navbar-setting-wraper">
+                    <div class="class-navbar-setting"></div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+	
+    <!-- <script src="js/.js"></script> -->
+	<div id="title">
+		<span id="title-school">中山大学 数据科学与计算机学院</span>
+		<p id="title-course">Web程序设计与实践</p>
+	</div>
+
+	<div id="main">
+		<div class="tab-container horizontal-tab">
+			<ul class="tabs">
+				<li class="active">
+					<a class="tab">课程信息</a>
+				</li>
+				<li>
+					<a class="tab" onclick="replace_staff()">课程人员</a>
+				</li>
+				<script>
+					function replace_staff(){
+						window.location.href='resource-student-2.html';
+					}
+				</script>
+				<li>
+					<a class="tab" onclick="replace_resouce()">课程资源</a>
+				</li>
+				<script>
+					function replace_resouce(){
+						window.location.href='resource-student-3.html';
+					}
+				</script>
+			</ul>
+			<div class="tab-content">
+				<div id="tab-content-description">
+					<p class="tab-content-title">课程介绍</p>
+					<div class="display" id="description">
+						<span>暂无介绍</span>
+					</div>
+				</div>
+				<div id="tab-content-inform">
+					<p class="tab-content-title">课程公告</p>
+					<div class="display" id="description">
+						<span>暂无公告</span>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div style="clear:both"></div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<!--resouce-description-->
+body{
+	min-width:1000px;
+}
+#title{
+	margin:10px 0;
+	height:100px;
+	position:relative;
+	background-color:rgb(245,245,245);
+	border-bottom:solid 1px rgb(200,200,200);
+}
+#title-school{
+	font-family:微软雅黑;
+	position:absolute;
+	top:10px;
+	left:10%;
+}
+#title-course{
+	font-family:微软雅黑;
+	font-size:1.5em;
+	font-weight:bold;
+	color:#444;
+	position:absolute;
+	top:20px;
+	left:10%;
+}
+#main{
+	margin:10px auto;
+	width:80%;
+	padding-bottom:50px;
+	border-bottom:solid 1px rgb(220,220,220);
+}
+.tab-content-title{
+	font-family:微软雅黑;
+	font-size:1.2em;
+	font-weight:bold;
+}
+#tab-content-description{
+	width:50%;
+	float:left;
+}
+#tab-content-inform{
+	width:50%;
+	float:right;
+}
+.display{
+	background-color:rgb(217,237,247);
+	height:100px;
+	width:95%;
+	overflow:auto;
+	border:solid 1.5px rgb(196,234,242);
+	border-radius:10px;
+}
+.display>span{
+	display:block;
+	margin:10px 10px;
+	color:#36648B;
+	font-family:微软雅黑;
+	
+}
+#click1,#click2{
+	color:#AAAAAA;
+}
+.tab-content{
+	margin:35px auto;
+}
+
+.edit{
+	color:#555;
+	font-size:0.8em;
+	margin:3px;
+}
+#postform{
+	margin-left:44.5%;
+	margin-top:24%;
+}
+

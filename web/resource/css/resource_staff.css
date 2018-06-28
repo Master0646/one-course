@@ -1,0 +1,69 @@
+<!--resouce-description-->
+body{
+	min-width:1000px;
+}
+#title{
+	margin:10px 0;
+	height:100px;
+	position:relative;
+	background-color:rgb(245,245,245);
+	border-bottom:solid 1px rgb(200,200,200);
+}
+#title-school{
+	font-family:微软雅黑;
+	position:absolute;
+	top:10px;
+	left:10%;
+}
+#title-course{
+	font-family:微软雅黑;
+	font-size:1.5em;
+	font-weight:bold;
+	color:#444;
+	position:absolute;
+	top:20px;
+	left:10%;
+}
+#main{
+	margin:10px auto;
+	width:80%;
+	padding-bottom:50px;
+	border-bottom:solid 1px rgb(220,220,220);
+}
+#teacher-information-change>p{
+	color:#AAAAAA;
+	font-size:0.8em;
+}
+img{
+	height: 120px;
+	width: 120px;
+	vertical-align: middle;
+}
+#image{
+	width: 120px;
+	height:120px;
+	display:inline-block;
+	position:relative;
+}
+#image > input{
+	opacity:0;
+	filter:alpha(opacity=0);
+	height: 120px;
+	width: 120px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9;
+}
+#teacher-information-dispaly{
+	margin-left:40px;
+	display:inline-block;
+	vertical-align: middle;
+}
+#teacher-information-dispaly>p{
+	display:inline-block;
+}
+#teacher-information-dispaly>span{
+	color:#AAAAAA;
+	font-size:0.8em;
+}

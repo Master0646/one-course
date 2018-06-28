@@ -1,0 +1,43 @@
+.horizontal-tab>.tabs::before {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.horizontal-tab>.tabs {
+    display: block;
+    min-width: 400px;
+    list-style: none;
+    margin-bottom: 20px;
+    margin-left: 0;
+    border-bottom: 1px solid #ddd;
+    color: #3c7cc0;
+    font-weight: bold;
+}
+
+.horizontal-tab>.tabs>li {
+    display: inline-block;
+    line-height: 20px;
+    margin: 0 0 -1px;
+}
+
+
+.horizontal-tab>.tabs>li>a {
+    display: block;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-right: 2px;
+    border-radius: 4px 4px 0 0;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.horizontal-tab>.tabs>.active>a {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
