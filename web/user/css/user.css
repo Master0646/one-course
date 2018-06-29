@@ -337,67 +337,70 @@ body {
 }
 
 #class-choose-area{
-    display: block;
+    display: none;
     width: 100%;
     height: 300px;
     padding: 10px 10%;
     background-color: #FFF;
 }
 #profile-display-area{
-    display: block; 
+    display: none; 
     width: 100%;
     height: 400px;
     padding: 10px 10%;
     background-color: #FFF;
 }
 #profile-edit-area{
-    display: block;
+    display: none;
     width: 100%;
     height: 500px;
     padding: 10px 10%;
     background-color: #FFF;
 }
 #classes-edit-area{
-    display: block;
+    display: none;
     width: 100%;
     height: 600px;
     padding: 10px 10%;
     background-color: #FFF;
 }
 
-.class-choose-item{
+#class-display-item, #class-choose-item{
     display: block;
     margin: 20px auto;
     height: 30px;
     width: 30em;
 }
-.class-choose-item>b{
+#class-display-item>b, #class-choose-item>b{
     display: inline-block;
     margin: 0;
     height: 30px;
-    width: 50px;
+    width: 130px;
     color: #696969;
 }
-.class-choose-item>select{
+#class-display-item>select, #class-choose-item>input[type="text"]{
     display: inline-block;
-    width: 80%;
+    width: 70%;
     height: 30px;
+    color: #3e7aab;
+    font-weight: bold;
+}
+#class-display-item>select>option{
+    font-size: 1em;
+    color: #696969;
 }
 #btn-class-add{
     display: flex;
-    margin: 0 auto;
+    margin: 10px auto;
     text-align: center;
 }
 
 .classes-edit-item{
     width: 100%;
+    height: 60px;
     margin: 10px;
 }
 
-.classes-edit-item>input{
-    margin-right: 10%;
-    display: inline-block;
-}
 .classes-edit-item>b{
     margin-right: 5%;
     display: inline-block;
@@ -405,4 +408,27 @@ body {
 .classes-edit-item>p{
     display: inline-block;
 }
+#classes-edit-area-buttons{
+    width: 100%;
+    text-align: center;
+}
 
+#class-cancel, #class-detail{
+    display: inline-block;
+    margin: 0 20px;
+    text-decoration:none;  
+    background:#428bca;  
+    color:#f2f2f2;  
+    max-width: 10em;
+      
+    padding: 10px 20px;  
+    text-align: center;
+    font-size:8px;  
+    font-family: 微软雅黑,宋体,Arial,Helvetica,Verdana,sans-serif;  
+    font-weight:bold;  
+    border-radius:3px;  
+      
+    -webkit-transition:all linear 0.30s;  
+    -moz-transition:all linear 0.30s;  
+    transition:all linear 0.30s;
+}

@@ -2,7 +2,7 @@ var submit = document.getElementById("submit");
 submit.onclick = function(){
 	var email = document.getElementById("email").value;
 	var password = document.getElementById("password").value;
-	var url = "http://172.18.157.244:55555/login.jsp";
+	var url = "http://localhost:8080/one-course-server_war/login.jsp";
 	var method = "POST";
 	var xmlHttpRequest = new XMLHttpRequest();
 
@@ -16,8 +16,9 @@ submit.onclick = function(){
 			console.log(returnData.msg);      
         	if(returnData.msg == "Ok"){  
             	alert("登录成功！");
-            	document.cookie = "email"+email;
-            	window.location.href='../user/user.html';      
+            	document.cookie = "email=" + email + ";path=/";
+            	document.cookie = "role=" + returnData.content[0].userRole + ";path=/";
+            	window.location.href='../user/user.html';
         	}else{      
             	alert("登录失败！");      
         	}

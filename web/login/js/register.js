@@ -11,7 +11,7 @@ submit.onclick = function(){
 		}
 	}
 
-	var url = "http://172.18.157.244:55555/signup.jsp";
+	var url = "http://localhost:8080/one-course-server_war/signup.jsp";
 	var method = "POST";
 	var xmlHttpRequest = new XMLHttpRequest();
 
@@ -27,7 +27,7 @@ submit.onclick = function(){
             	alert("注册成功！");
             	window.location.href='index.html';      
         	}else{      
-            	alert("登录失败！");      
+            	alert("登录失败！MSG:"+returnData.msg);      
         	}
 		}     
         	
