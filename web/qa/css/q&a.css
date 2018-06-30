@@ -12,7 +12,7 @@ body {
 }
 
 #bar_container {
-  height:25px;
+  min-height:25px;
   background-color:#e7e8e9;
   border-bottom:1px solid #c7c6c6;
 }
@@ -23,7 +23,7 @@ body {
 }
 
 #new_post_button_container {
-  height:37px;
+  min-height:37px;
   background-color:#aaa;
   padding:5px;
   border-bottom:1px solid #c7c6c6;
@@ -38,8 +38,8 @@ button:hover {
 }
 
 #new_post_button {
-  width:100px;
-  height:28px;
+  min-width:100px;
+  min-height:28px;
   background-color:#3e79ab;
   color:#D9E4EC;
   margin:auto;
@@ -57,7 +57,7 @@ button:hover {
 #filter_message_container {
   text-align:right;
   font-size:13px;
-  height:28px;
+  min-height:28px;
   background-color:#e7e8e9;
   border-bottom:#c7c6c6;
   padding:5px;
@@ -86,8 +86,8 @@ button:hover {
 }
 
 #post_list #rightIcon {
-  height:20px;
-  width:20px;
+  min-height:20px;
+  min-width:20px;
   display:inline-block;
   text-align:center;
   border-radius:3px;

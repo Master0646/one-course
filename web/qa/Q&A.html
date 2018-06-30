@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <meta charset="utf-8" />
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
@@ -19,7 +18,7 @@
     <nav id="navbar" class="navbar">
       <div class="navbar-inner">
         <div class="navbar-header">
-          <a href="base_blue_nav.html" class="navbar-brand"></a>
+          <a href="../user/user.html" class="navbar-brand"></a>
         </div>
         <ul class="navbar-nav class-navbar-middle">
           <li class="class-navbar-items">
@@ -68,7 +67,7 @@
     page_left.style.height = document.documentElement.clientHeight - 40 + "px";
 
     var username = document.querySelector(".class-navbar-username>a");
-    username.innerHTML = getCookie("username") ;
+    username.innerHTML = getCookie("email") ;
   
     window.onresize = function() {
       var width = page_left.clientWidth;
