@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="one-course-server:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/one_course_server_war</output-path>
+    <root id="archive" name="one-course-server_war.war">
+      <element id="artifact" artifact-name="one-course-server:war exploded" />
+    </root>
+  </artifact>
+</component>

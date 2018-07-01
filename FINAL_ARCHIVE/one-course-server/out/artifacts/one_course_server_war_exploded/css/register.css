@@ -1,0 +1,43 @@
+.radio-identity {
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.login input[type="radio"] {
+    width: 20%;
+    padding: 1.25em 1em 1.25em 4em;
+    color: #283440;
+    font-size: 16px;
+    outline: none;
+    font-weight: 500;
+    border: none;
+    border-bottom: 1px solid #C0C3C8;
+    font-family: 'Open Sans', sans-serif;
+    background: url("../images/user.png") no-repeat 14px 15px #ffffff;
+    border-top-left-radius: 0.3em;
+    border-top-right-radius: 0.3em;
+}
+
+.radio-identity-item {
+    width: 40%;
+    margin: 0;
+    display: inline-block;
+}
+
+.radio-option {
+    display: inline-block;
+    color: #FFF;
+}
+
+.btns-submit {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-signup {
+    width: 18em;
+    margin-top: 3.4em;
+}

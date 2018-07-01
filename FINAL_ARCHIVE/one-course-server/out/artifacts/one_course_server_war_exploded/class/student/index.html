@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>课程主页</title>
+    <!-- 保证在所有浏览器上都具有相同的样式 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../../css/base_blue_nav.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="../../css/base_btn.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="../../css/course_common.css"/>
+    <style>
+        /* 课程人员样式 */
+        .course-staff-table {
+            width: 100%;
+            margin-bottom: 20px;
+            border-collapse: separate;
+            border-spacing: 0;
+        }
+
+        .course-staff-table th {
+            display: table-cell;
+            padding: 8px;
+            line-height: 40px;
+            text-align: center;
+            font-weight: bold;
+            float: none;
+            width: 204px;
+            margin-left: 0;
+            border-top: 0;
+        }
+
+        .course-staff-table td {
+            padding: 20px 8px;
+            line-height: 20px;
+            text-align: center;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+
+<body id="body" style="display: none">
+<nav id="navbar" class="navbar">
+    <div class="navbar-inner">
+        <div class="navbar-header">
+            <a href="/user/instructor/home.html" class="navbar-brand"  id="navbar-brand-link"></a>
+        </div>
+        <ul class="navbar-nav class-navbar-middle">
+            <li class="class-navbar-items">
+                <a class="class-link" id="course-code">课程代码</a>
+            </li>
+            <li class="class-navbar-items">
+                <a class="class-link" id="course-qa">Q & A</a>
+            </li>
+            <li class="class-navbar-items">
+                <a class="class-link" id="course-homework">课程作业</a>
+            </li>
+            <!--<li class="class-navbar-items">-->
+                <!--<a class="class-link" id="course-resource">课程资源</a>-->
+            <!--</li>-->
+            <!--<li class="class-navbar-items">-->
+                <!--<a class="class-link" id="course-manage">课程管理</a>-->
+            <!--</li>-->
+        </ul>
+        <ul class="navbar-nav class-navbar-right">
+            <li>
+                <img class="navbar-profile-picture" src="../../images/default_user.png">
+            </li>
+            <li class="class-navbar-items">
+                <a id="username" class="class-link">用户名</a>
+            </li>
+            <li class="class-navbar-items">
+                <a id="logout" class="class-link" href="/logout.html">注销</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="course-main">
+    <div class="course-main-header">
+        <div class="course-main-header-content">
+            <p id="course-title">学院 - 年份 学期</p>
+            <h1 id="course-name">课程代码: 课程名称</h1>
+        </div>
+    </div>
+    <div class="course-main-inner">
+        <div class="course-info-item">
+            <h3>课程介绍</h3>
+            <div class="course-info-box">
+                <h4 id="course-intro">
+                    Hello, world!
+                </h4>
+            </div>
+            <!-- <div class="course-manage">
+            <button type ="button" class="btn default-btn" style="float: right">修改</button>
+        </div> -->
+        </div>
+        <div id="course-staff" class="course-info-item">
+            <h3>教师信息</h3>
+            <table class="course-staff-table" id="course-staff-table">
+                <thead>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th>&nbsp;</th>
+                    <th>联系方式</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="course-staff-item" style="display: none">
+                    <td>
+                        <div id="course-staff-img">
+                            <div class="no_border">
+                                <img src="../../images/default_user.png">
+                            </div>
+                        </div>
+                    </td>
+                    <td id="course-staff-role"></td>
+                    <td>
+                    </td>
+                    <td id="course-staff-email">
+                        test@test.com
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+<script src="../../js/common.js"></script>
+<script src="../../js/course-common.js"></script>
+<script src="../../js/course-student-init.js"></script>
+<script>
+    window.coursecode = getCurrentUrlParam("courseCode");
+    if (window.coursecode == null) {
+        window.location.href = "/";
+    }
+    getJsonFromServer("/class/getCourseInfo.jsp", "courseCode=" + window.coursecode, function () {
+        handleStatus();
+        initNav();
+        initNavAndHead();
+        setCourseStuLink(window.coursecode);
+        courseIntroInit();
+        document.getElementById("body").removeAttribute("style");
+    });
+
+    function courseIntroInit() {
+        var intro = document.getElementById("course-intro");
+        intro.innerText = getIntro();
+        var staff_table = document.getElementById("course-staff-table");
+        for (var i = 1; i < window.localjson.content.length; i++) {
+            var email = window.localjson.content[i].userName;
+            staff_table.appendChild(getStaffItem(email));
+        }
+    }
+
+    function getIntro() {
+        if (window.localjson.content[0].intro === undefined)
+            return "当前课程暂无介绍。";
+        return window.localjson.content[0].intro;
+    }
+
+    function getStaffItem(email) {
+        var base = document.getElementsByClassName("course-staff-item")[0];
+        var cloned = base.cloneNode(true);
+        cloned.removeAttribute("style");
+        cloned.children[cloned.childElementCount - 1].innerHTML = email;
+        return cloned;
+    }
+</script>
+</html>

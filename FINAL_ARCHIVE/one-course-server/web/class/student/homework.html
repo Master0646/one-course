@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>课程作业</title>
+    <!-- 保证在所有浏览器上都具有相同的样式 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../../css/base_blue_nav.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="../../css/base_btn.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="../../css/base_table.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="../../css/course_common.css"/>
+    <style>
+        .course-hw-submit {
+            width: 100%;
+            height: 50px;
+            margin-top: 20px;
+        }
+
+        .course-hw-submit-form {
+            display: block;
+            position: relative;
+            width: 30%;
+        }
+
+        .course-hw-submit-select-file {
+            position: relative;
+            overflow: hidden;
+            direction: ltr;
+            display: inline-block;
+            /*width: 105px;*/
+            padding: 7px 10px;
+            text-align: center;
+            background: #880000;
+            border: 1px solid #880000;
+            color: #FFF;
+            transition: 0.3s;
+        }
+
+        .course-hw-submit-select-file:hover {
+            color: #880000;
+            background: white;
+            border: 1px solid #880000;
+        }
+
+        .submit-hw-file-input {
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 0;
+            font-family: Arial,serif;
+            font-size: 118px;
+            margin: 0;
+            padding: 0;
+            cursor: pointer;
+            opacity: 0;
+            height: 100%;
+        }
+
+        .course-submit-hw-btn {
+            /* Style */
+            font-weight: 300;
+            text-align: center;
+            vertical-align: middle;
+            border-radius: 4px;
+            line-height: 1.08;
+            padding: 7px 20px;
+            user-select: none;
+            white-space: nowrap;
+            cursor: pointer;
+            color: #428bca;
+            border: 1px solid #428bca;
+            background: white;
+            transition: 0.3s;
+
+            display: inline-block;
+        }
+
+        .course-submit-hw-btn:hover {
+            color: white;
+            background: #428bca;
+            border-color: #428bca;
+        }
+
+        .selected-filename {
+            display: block;
+            font-size: 14px;
+            color: gray!important;
+            font-style: italic!important;
+        }
+    </style>
+</head>
+
+
+<body>
+<nav id="navbar" class="navbar">
+    <div class="navbar-inner">
+        <div class="navbar-header">
+            <a href="/15336036_v9/user/instructor/home.html" class="navbar-brand" id="navbar-brand-link"></a>
+        </div>
+        <ul class="navbar-nav class-navbar-middle">
+            <li class="class-navbar-items">
+                <a class="class-link" id="course-code">课程代码</a>
+            </li>
+            <li class="class-navbar-items">
+                <a class="class-link" id="course-qa">Q & A</a>
+            </li>
+            <li class="class-navbar-items">
+                <a class="class-link" id="course-homework">课程作业</a>
+            </li>
+            <!--<li class="class-navbar-items">-->
+            <!--<a class="class-link" id="course-resource">课程资源</a>-->
+            <!--</li>-->
+            <!--<li class="class-navbar-items">-->
+            <!--<a class="class-link" id="course-manage">课程管理</a>-->
+            <!--</li>-->
+        </ul>
+        <ul class="navbar-nav class-navbar-right">
+            <li>
+                <img class="navbar-profile-picture" src="../../images/default_user.png">
+            </li>
+            <li class="class-navbar-items">
+                <a id="username" class="class-link">用户名</a>
+            </li>
+            <li class="class-navbar-items">
+                <a id="logout" class="class-link" href="/15336036_v9/logout.html">注销</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="course-main">
+    <div class="course-main-header">
+        <div class="course-main-header-content">
+            <p id="course-title">学院 - 年份 学期</p>
+            <h1 id="course-name">课程代码: 课程名称</h1>
+        </div>
+    </div>
+    <div class="course-main-inner">
+        <div class="course-info-item" data-hw-role="hw-no-content">
+            <div class="course-info-box">
+                <h4 class="course-hw-detail" style="color: gray; font-style: italic">当前课程还没有发布过作业哦。</h4>
+            </div>
+        </div>
+        <!-- 发布作业 -->
+        <!--<div class="course-info-item">-->
+        <!--<h3>发布新作业</h3>-->
+        <!--<form name="publish-hw">-->
+        <!--<label class="form-label" for="hw-title">作业名</label>-->
+        <!--<input class="form-text-input" type="text" name="title" id="hw-title" placeholder="请输入作业名称">-->
+        <!--<label class="form-label" for="hw-ddl">截止日期</label>-->
+        <!--<input class="form-text-input" type="date" name="deadline" id="hw-ddl">-->
+        <!--<label class="form-label" for="hw-detail">作业名</label>-->
+        <!--<textarea class="form-text-input" name="detail" placeholder="作业说明" style="resize: none;" id="hw-detail"-->
+        <!--rows="8"></textarea>-->
+        <!--<input style="display: none" name="courseCode" id="hw-coursecode">-->
+        <!--&lt;!&ndash;<input style="display: none" >&ndash;&gt;-->
+        <!--<button type="submit" class="btn default-btn huge-btn submit-hw-btn" id="publish-hw-btn">发布</button>-->
+        <!--</form>-->
+        <!--<iframe width="0" height="0" name="actionframe" style="display: none"></iframe>-->
+
+
+        <!--</div>-->
+
+        <!-- 展示所有作业 -->
+        <div class="course-info-item " data-hw-role="hw-item" style="display: none">
+            <h3 class="course-hw-title">作业</h3>
+            <div class="course-info-box">
+                <h4 class="course-hw-deadline">截止日期</h4>
+                <h4 class="course-hw-detail">说点什么</h4>
+            </div>
+            <div class="course-hw-submit">
+                <!--<button type="button" class="btn default-btn huge-btn submit-hw-btn" data-hw-role="check-btn"-->
+                <!--data-hw-id="">查看作业提交情况-->
+                <!--</button>-->
+                <form class="course-hw-submit-form">
+                    <div class="course-hw-submit-select-file btn default-btn huge-btn">
+                        <div class="course-hw-submit-text">选择文件</div>
+                        <input type="file" class="submit-hw-file-input" name="file">
+                    </div>
+                    <button type="button" class="course-submit-hw-btn" data-hw-role="submit-hw-btn"
+                            data-hw-id="">提交
+                    </button>
+                </form>
+                <span class=".selected-filename"></span>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="../../js/common.js"></script>
+<script src="../../js/course-common.js"></script>
+<script src="../../js/course-student-init.js"></script>
+<script>
+    window.coursecode = getCurrentUrlParam("courseCode");
+    if (window.coursecode == null) {
+        window.location.href = getPagePrefix() + "/";
+    }
+    getJsonFromServer("/class/getCourseInfo.jsp", "courseCode=" + window.coursecode, function () {
+        handleStatus();
+        initNav();
+        initNavAndHead();
+        setCourseStuLink(window.coursecode);
+        courseHwInit();
+        // document.getElementById("body").removeAttribute("style");
+    });
+
+    function courseHwInit() {
+        window.localjson = null;
+        getJsonFromServer("/class/homework.jsp", "courseCode=" + window.coursecode + "&requestType=getall", function () {
+            handleStatus();
+            initHwList();
+        });
+    }
+
+    function initHwList() {
+        if (window.localjson.code === 202) return;
+        document.querySelector('[data-hw-role="hw-no-content"]').style.display = "none";
+        var hwListContainer = document.querySelector(".course-main-inner");
+        var base_hw_item = document.querySelector('[data-hw-role="hw-item"]');
+        for (var i = 0; i < window.localjson.content.length; i++) {
+            var new_item = createHwItem(base_hw_item, window.localjson.content[i]);
+            hwListContainer.appendChild(new_item);
+        }
+    }
+
+    function createHwItem(base_item, hwInfo) {
+        var new_item = base_item.cloneNode(true);
+        var title = new_item.querySelector(".course-hw-title");
+        var detail = new_item.querySelector(".course-hw-detail");
+        var ddl = new_item.querySelector(".course-hw-deadline");
+        var file_input = new_item.querySelector(".submit-hw-file-input");
+        var filename_display = new_item.querySelector(".course-hw-submit-text");
+        var submit_btn = new_item.querySelector('[data-hw-role="submit-hw-btn"]');
+        title.innerText = hwInfo.title;
+        ddl.innerText = "截止日期：" + hwInfo.deadline;
+        file_input.addEventListener("change", function (ev) {
+            filename_display.innerText = ev.currentTarget.files[0].name;
+        });
+        submit_btn.setAttribute("data-hw-id", hwInfo.homeworkId);
+        submit_btn.addEventListener("click", function (event) {
+            event.preventDefault();
+            submitHomework(hwInfo.homeworkId, file_input);
+        });
+        if (hwInfo.detail === "") detail.style.display = "none";
+        else detail.innerText = hwInfo.detail;
+        new_item.removeAttribute("style");
+        return new_item;
+    }
+
+    function submitHomework(hwId, file_input) {
+        if (file_input.files.length === 0) {
+            alert("您还未选择文件，请先点击“选择文件”~");
+            return;
+        }
+        var file = file_input.files[0];
+        var form = new FormData();
+        form.append("file", file);
+        getJsonFromServerWithFile("/file/upload.jsp?" + "courseCode=" + window.coursecode + "&resType=homework&hwId=" + hwId, form, function () {
+            handleStatus();
+            if (window.localjson.code === 200 || window.localjson.code === 201) {
+                alert("作业提交成功！");
+                window.location.reload();
+            }
+        });
+    }
+</script>
+
+</html>

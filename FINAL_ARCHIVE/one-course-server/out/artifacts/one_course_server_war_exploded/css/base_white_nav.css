@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar ul {
+    padding: 0;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+.navbar {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #36648B;
+    min-width: 500px;
+    margin: 0 auto;
+}
+
+.navbar-inner {
+    width: 60%;
+    min-width: 500px;
+    height: 35px;
+    margin: 10px auto 0;
+    position: relative;
+}
+
+.navbar-header {
+    display: inline-block;
+    width: 210px;
+}
+
+.navbar-brand {
+    display: block;
+    width: 210px;
+    height: 30px;
+    background: url("../images/logo_white.png") no-repeat;
+    background-size: 210px auto;
+    cursor: pointer;
+}
+
+.navbar-right {
+    display: inline-block;
+    width: auto;
+    position: absolute;
+    right: 0;
+    margin: 0;
+}
+
+.navbar-right > li {
+    display: inline-block;
+    margin-left: 10px;
+}

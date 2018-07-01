@@ -1,0 +1,2280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="one-course-server:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ecd81bf8-fa1c-405d-ab05-6aeb6420d600" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-644845685">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="course-student-init.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/js/course-student-init.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="651">
+              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JSP" />
+        <option value="Class" />
+        <option value="Enum" />
+        <option value="Jsp File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ifrea</find>
+      <find>hw-ddl</find>
+      <find>检查</find>
+      <find>logout.jsp</find>
+      <find>course-code</find>
+      <find>url</find>
+      <find>201</find>
+      <find>2</find>
+      <find>submit-hw-btn</find>
+      <find>course-hw-submit</find>
+      <find>content[0].length</find>
+      <find>&quot;/15336036&quot;</find>
+      <find>AuthHelper.killAllCookies(request, response)</find>
+      <find>/</find>
+      <find>&quot;/</find>
+      <find>window.location.host</find>
+      <find>http://</find>
+      <find>15336036_v2</find>
+      <find>15336036_v3</find>
+      <find>+ getPagePrefix()</find>
+      <find>return &quot;/&quot; + &quot;15336036_v4&quot;;</find>
+      <find>return &quot;/&quot;;</find>
+      <find>return &quot;&quot;;</find>
+      <find>15336036_v4</find>
+      <find>15336036_v6</find>
+      <find>15336036_v7</find>
+      <find>anonymous</find>
+      <find>rightMiddle</find>
+      <find>element.appendChild</find>
+      <find>15336036_v8</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>JSONObject</replace>
+      <replace>Status</replace>
+      <replace>BaseStatus</replace>
+      <replace>&quot;http://&quot; + window.location.host</replace>
+      <replace>json</replace>
+      <replace>logout.html</replace>
+      <replace>content.length</replace>
+      <replace>window.location.host + &quot;/15336036&quot;</replace>
+      <replace>&quot;/15336036_v2&quot;</replace>
+      <replace>window.localjson</replace>
+      <replace />
+      <replace>15336036_v3</replace>
+      <replace>15336036_v4</replace>
+      <replace>return &quot;/&quot;;</replace>
+      <replace>return &quot;&quot;;</replace>
+      <replace>return &quot;/15336036_v6&quot;;</replace>
+      <replace>15336036_v6</replace>
+      <replace>15336036_v7</replace>
+      <replace>15336036_v8</replace>
+      <replace>15336036_v9</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/js/user.js" />
+        <option value="$PROJECT_DIR$/web/css/home.css" />
+        <option value="$PROJECT_DIR$/web/home.html" />
+        <option value="$PROJECT_DIR$/web/css/home_common.css" />
+        <option value="$PROJECT_DIR$/web/class/instructor/index.html" />
+        <option value="$PROJECT_DIR$/web/css/base_blue_nav.css" />
+        <option value="$PROJECT_DIR$/web/class/instructor/qa.html" />
+        <option value="$PROJECT_DIR$/web/class/student/index.html" />
+        <option value="$PROJECT_DIR$/web/class/student/qa.html" />
+        <option value="$PROJECT_DIR$/web/join-class.jsp" />
+        <option value="$PROJECT_DIR$/web/home.jsp" />
+        <option value="$PROJECT_DIR$/web/create-class.jsp" />
+        <option value="$PROJECT_DIR$/web/course-post-discussion.jsp" />
+        <option value="$PROJECT_DIR$/web/course-post.jsp" />
+        <option value="$PROJECT_DIR$/web/file/upload.jsp" />
+        <option value="$PROJECT_DIR$/web/file/download.jsp" />
+        <option value="$PROJECT_DIR$/web/class/resource.jsp" />
+        <option value="$PROJECT_DIR$/web/class/homework.jsp" />
+        <option value="$PROJECT_DIR$/web/class/getCourseInfo.jsp" />
+        <option value="$PROJECT_DIR$/web/class/adminlist.jsp" />
+        <option value="$PROJECT_DIR$/web/class/manage/stulist.jsp" />
+        <option value="$PROJECT_DIR$/web/class/manage/uploadedHomeworkList.jsp" />
+        <option value="$PROJECT_DIR$/web/class/instructor/checkHwSubmit.jsp" />
+        <option value="$PROJECT_DIR$/web/class/student/homework.html" />
+        <option value="$PROJECT_DIR$/src/onecourse/models/CourseHomeworkUploadedFileNewNew.java" />
+        <option value="$PROJECT_DIR$/src/onecourse/models/CourseHomeworkUploadedFile.java" />
+        <option value="$PROJECT_DIR$/src/onecourse/models/CoursePostDiscussionNewNew.java" />
+        <option value="$PROJECT_DIR$/src/onecourse/models/CoursePostDiscussion.java" />
+        <option value="$PROJECT_DIR$/src/onecourse/models/CoursePostNew.java" />
+        <option value="$PROJECT_DIR$/src/onecourse/models/CoursePost.java" />
+        <option value="$PROJECT_DIR$/web/js/common.js" />
+        <option value="$PROJECT_DIR$/web/js/course-common.js" />
+        <option value="$PROJECT_DIR$/web/js/home.js" />
+        <option value="$PROJECT_DIR$/web/js/qa3.js" />
+        <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/web/logout.html" />
+        <option value="$PROJECT_DIR$/web/user/instructor/home.html" />
+        <option value="$PROJECT_DIR$/src/onecourse/utils/DBHelper.java" />
+        <option value="$PROJECT_DIR$/web/login.jsp" />
+        <option value="$PROJECT_DIR$/web/signup.jsp" />
+        <option value="$PROJECT_DIR$/web/js/register.js" />
+        <option value="$PROJECT_DIR$/web/js/index.js" />
+        <option value="$PROJECT_DIR$/web/register.html" />
+        <option value="$PROJECT_DIR$/web/js/course-instructor-init.js" />
+        <option value="$PROJECT_DIR$/web/user/student/home.html" />
+        <option value="$PROJECT_DIR$/web/css/cards.css" />
+        <option value="$PROJECT_DIR$/web/css/base_white_nav.css" />
+        <option value="$PROJECT_DIR$/web/css/index.css" />
+        <option value="$PROJECT_DIR$/web/class/instructor/homework.html" />
+        <option value="$PROJECT_DIR$/web/js/qa.js" />
+        <option value="$PROJECT_DIR$/web/js/course-student-init.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="74" />
+    <option name="y" value="66" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectUserFactors">
+    <factor id="binaryFeature:liftShorter">
+      <dailyData date="25-6-2018">
+        <observation name="false" value="760.0" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="false" value="2089.0" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="false" value="1359.0" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="false" value="601.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:liftShorterClasses">
+      <dailyData date="25-6-2018">
+        <observation name="UNDEFINED" value="49.0" />
+        <observation name="false" value="711.0" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="UNDEFINED" value="156.0" />
+        <observation name="false" value="1933.0" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="UNDEFINED" value="121.0" />
+        <observation name="false" value="1238.0" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="UNDEFINED" value="73.0" />
+        <observation name="false" value="528.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:middleMatching">
+      <dailyData date="25-6-2018">
+        <observation name="false" value="756.0" />
+        <observation name="true" value="4.0" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="false" value="2073.0" />
+        <observation name="true" value="16.0" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="false" value="1356.0" />
+        <observation name="true" value="3.0" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="false" value="598.0" />
+        <observation name="true" value="3.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:nonGeneric">
+      <dailyData date="25-6-2018">
+        <observation name="0" value="329.0" />
+        <observation name="UNDEFINED" value="431.0" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="0" value="931.0" />
+        <observation name="UNDEFINED" value="1158.0" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="0" value="676.0" />
+        <observation name="UNDEFINED" value="683.0" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="0" value="286.0" />
+        <observation name="UNDEFINED" value="315.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_inResolveScope">
+      <dailyData date="25-6-2018">
+        <observation name="UNDEFINED" value="35.0" />
+        <observation name="false" value="268.0" />
+        <observation name="true" value="457.0" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="UNDEFINED" value="83.0" />
+        <observation name="false" value="746.0" />
+        <observation name="true" value="1260.0" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="UNDEFINED" value="72.0" />
+        <observation name="false" value="509.0" />
+        <observation name="true" value="778.0" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="UNDEFINED" value="42.0" />
+        <observation name="false" value="230.0" />
+        <observation name="true" value="329.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_openedInEditor">
+      <dailyData date="25-6-2018">
+        <observation name="UNDEFINED" value="35.0" />
+        <observation name="false" value="460.0" />
+        <observation name="true" value="265.0" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="UNDEFINED" value="83.0" />
+        <observation name="false" value="1250.0" />
+        <observation name="true" value="756.0" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="UNDEFINED" value="72.0" />
+        <observation name="false" value="842.0" />
+        <observation name="true" value="445.0" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="UNDEFINED" value="42.0" />
+        <observation name="false" value="394.0" />
+        <observation name="true" value="165.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_sameDirectory">
+      <dailyData date="25-6-2018">
+        <observation name="UNDEFINED" value="35.0" />
+        <observation name="false" value="498.0" />
+        <observation name="true" value="227.0" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="UNDEFINED" value="83.0" />
+        <observation name="false" value="1350.0" />
+        <observation name="true" value="656.0" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="UNDEFINED" value="72.0" />
+        <observation name="false" value="874.0" />
+        <observation name="true" value="413.0" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="UNDEFINED" value="42.0" />
+        <observation name="false" value="391.0" />
+        <observation name="true" value="168.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_sameLogicalRoot">
+      <dailyData date="25-6-2018">
+        <observation name="UNDEFINED" value="35.0" />
+        <observation name="false" value="430.0" />
+        <observation name="true" value="295.0" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="UNDEFINED" value="83.0" />
+        <observation name="false" value="1164.0" />
+        <observation name="true" value="842.0" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="UNDEFINED" value="72.0" />
+        <observation name="false" value="791.0" />
+        <observation name="true" value="496.0" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="UNDEFINED" value="42.0" />
+        <observation name="false" value="364.0" />
+        <observation name="true" value="195.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_sdkOrLibrary">
+      <dailyData date="25-6-2018">
+        <observation name="UNDEFINED" value="35.0" />
+        <observation name="false" value="571.0" />
+        <observation name="true" value="154.0" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="UNDEFINED" value="83.0" />
+        <observation name="false" value="1757.0" />
+        <observation name="true" value="249.0" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="UNDEFINED" value="72.0" />
+        <observation name="false" value="1156.0" />
+        <observation name="true" value="131.0" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="UNDEFINED" value="42.0" />
+        <observation name="false" value="484.0" />
+        <observation name="true" value="75.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:templates">
+      <dailyData date="25-6-2018">
+        <observation name="false" value="753.0" />
+        <observation name="true" value="7.0" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="false" value="2089.0" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="false" value="1356.0" />
+        <observation name="true" value="3.0" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="false" value="601.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:accessible">
+      <dailyData date="25-6-2018">
+        <observation name="NORMAL" value="726.0" />
+        <observation name="UNDEFINED" value="34.0" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="NORMAL" value="2007.0" />
+        <observation name="UNDEFINED" value="82.0" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="NORMAL" value="1286.0" />
+        <observation name="UNDEFINED" value="73.0" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="NORMAL" value="551.0" />
+        <observation name="UNDEFINED" value="50.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:expectedType">
+      <dailyData date="25-6-2018">
+        <observation name="UNDEFINED" value="34.0" />
+        <observation name="expected" value="163.0" />
+        <observation name="maybeExpected" value="27.0" />
+        <observation name="normal" value="528.0" />
+        <observation name="ofDefaultType" value="8.0" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="UNDEFINED" value="82.0" />
+        <observation name="expected" value="523.0" />
+        <observation name="maybeExpected" value="101.0" />
+        <observation name="normal" value="1358.0" />
+        <observation name="ofDefaultType" value="20.0" />
+        <observation name="unexpected" value="5.0" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="UNDEFINED" value="73.0" />
+        <observation name="expected" value="427.0" />
+        <observation name="maybeExpected" value="70.0" />
+        <observation name="normal" value="777.0" />
+        <observation name="ofDefaultType" value="12.0" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="UNDEFINED" value="50.0" />
+        <observation name="expected" value="169.0" />
+        <observation name="maybeExpected" value="44.0" />
+        <observation name="normal" value="329.0" />
+        <observation name="ofDefaultType" value="9.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:kind">
+      <dailyData date="25-6-2018">
+        <observation name="OTHER" value="2.0" />
+        <observation name="UNDEFINED" value="34.0" />
+        <observation name="classNameOrGlobalStatic" value="146.0" />
+        <observation name="expectedTypeArgument" value="1.0" />
+        <observation name="expectedTypeVariable" value="40.0" />
+        <observation name="normal" value="347.0" />
+        <observation name="probableKeyword" value="52.0" />
+        <observation name="suitableClass" value="10.0" />
+        <observation name="variable" value="128.0" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="OTHER" value="7.0" />
+        <observation name="UNDEFINED" value="82.0" />
+        <observation name="classNameOrGlobalStatic" value="469.0" />
+        <observation name="expectedTypeConstant" value="5.0" />
+        <observation name="expectedTypeVariable" value="127.0" />
+        <observation name="improbableKeyword" value="3.0" />
+        <observation name="normal" value="935.0" />
+        <observation name="probableKeyword" value="158.0" />
+        <observation name="suitableClass" value="7.0" />
+        <observation name="variable" value="296.0" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="OTHER" value="4.0" />
+        <observation name="UNDEFINED" value="73.0" />
+        <observation name="classNameOrGlobalStatic" value="309.0" />
+        <observation name="expectedTypeConstant" value="5.0" />
+        <observation name="expectedTypeVariable" value="122.0" />
+        <observation name="normal" value="515.0" />
+        <observation name="probableKeyword" value="105.0" />
+        <observation name="suitableClass" value="2.0" />
+        <observation name="variable" value="224.0" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="OTHER" value="2.0" />
+        <observation name="UNDEFINED" value="50.0" />
+        <observation name="classNameOrGlobalStatic" value="117.0" />
+        <observation name="expectedTypeConstant" value="2.0" />
+        <observation name="expectedTypeVariable" value="47.0" />
+        <observation name="normal" value="234.0" />
+        <observation name="probableKeyword" value="40.0" />
+        <observation name="suitableClass" value="2.0" />
+        <observation name="unlikelyClass" value="1.0" />
+        <observation name="variable" value="106.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:prox_groovyReferenceListWeigher">
+      <dailyData date="25-6-2018">
+        <observation name="UNDEFINED" value="35.0" />
+        <observation name="unknown" value="725.0" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="UNDEFINED" value="83.0" />
+        <observation name="unknown" value="2006.0" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="UNDEFINED" value="72.0" />
+        <observation name="unknown" value="1287.0" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="UNDEFINED" value="42.0" />
+        <observation name="unknown" value="559.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:prox_javaInheritance">
+      <dailyData date="25-6-2018">
+        <observation name="UNDEFINED" value="35.0" />
+        <observation name="false" value="155.0" />
+        <observation name="null" value="566.0" />
+        <observation name="true" value="4.0" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="UNDEFINED" value="83.0" />
+        <observation name="false" value="473.0" />
+        <observation name="null" value="1523.0" />
+        <observation name="true" value="10.0" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="UNDEFINED" value="72.0" />
+        <observation name="false" value="308.0" />
+        <observation name="null" value="972.0" />
+        <observation name="true" value="7.0" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="UNDEFINED" value="42.0" />
+        <observation name="false" value="121.0" />
+        <observation name="null" value="437.0" />
+        <observation name="true" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:prox_referenceList">
+      <dailyData date="25-6-2018">
+        <observation name="UNDEFINED" value="35.0" />
+        <observation name="applicableByKind" value="6.0" />
+        <observation name="unknown" value="719.0" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="UNDEFINED" value="83.0" />
+        <observation name="applicableByKind" value="11.0" />
+        <observation name="unknown" value="1995.0" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="UNDEFINED" value="72.0" />
+        <observation name="applicableByKind" value="3.0" />
+        <observation name="unknown" value="1284.0" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="UNDEFINED" value="42.0" />
+        <observation name="applicableByKind" value="2.0" />
+        <observation name="unknown" value="557.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:recursion">
+      <dailyData date="25-6-2018">
+        <observation name="UNDEFINED" value="215.0" />
+        <observation name="delegation" value="8.0" />
+        <observation name="normal" value="537.0" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="UNDEFINED" value="585.0" />
+        <observation name="delegation" value="4.0" />
+        <observation name="normal" value="1500.0" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="UNDEFINED" value="303.0" />
+        <observation name="delegation" value="1.0" />
+        <observation name="normal" value="1053.0" />
+        <observation name="recursive" value="2.0" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="UNDEFINED" value="124.0" />
+        <observation name="normal" value="477.0" />
+      </dailyData>
+    </factor>
+    <factor id="completionFinishedType">
+      <dailyData date="25-6-2018">
+        <observation name="cancelled" value="2271.0" />
+        <observation name="explicitSelect" value="388.0" />
+        <observation name="typedSelect" value="373.0" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="cancelled" value="5575.0" />
+        <observation name="explicitSelect" value="1215.0" />
+        <observation name="typedSelect" value="879.0" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="cancelled" value="3956.0" />
+        <observation name="explicitSelect" value="885.0" />
+        <observation name="typedSelect" value="486.0" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="cancelled" value="1416.0" />
+        <observation name="explicitSelect" value="360.0" />
+        <observation name="typedSelect" value="242.0" />
+      </dailyData>
+    </factor>
+    <factor id="completionType">
+      <dailyData date="25-6-2018">
+        <observation name="BASIC" value="977.0" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="BASIC" value="2721.0" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="BASIC" value="1703.0" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="BASIC" value="769.0" />
+      </dailyData>
+    </factor>
+    <factor id="completionUsage">
+      <dailyData date="25-6-2018">
+        <observation name="count" value="3032.0" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="count" value="7669.0" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="count" value="5327.0" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="count" value="2018.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:explicitProximity">
+      <dailyData date="25-6-2018">
+        <observation name="average" value="0.143516" />
+        <observation name="count" value="1519.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.106716" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="average" value="0.135504" />
+        <observation name="count" value="4177.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.094999" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="average" value="0.159735" />
+        <observation name="count" value="2717.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.138689" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="average" value="0.133222" />
+        <observation name="count" value="1201.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.107859" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:grouping">
+      <dailyData date="25-6-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="1519.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="4177.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="2717.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="1201.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:mostUsed">
+      <dailyData date="25-6-2018">
+        <observation name="UNDEFINED" value="691.0" />
+        <observation name="average" value="-24.40146" />
+        <observation name="count" value="137.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-72.0" />
+        <observation name="variance" value="435.00222" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="UNDEFINED" value="1932.0" />
+        <observation name="average" value="-39.984026" />
+        <observation name="count" value="313.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-172.0" />
+        <observation name="variance" value="2044.0707" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="UNDEFINED" value="992.0" />
+        <observation name="average" value="-26.372442" />
+        <observation name="count" value="733.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-196.0" />
+        <observation name="variance" value="1678.751296" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="UNDEFINED" value="406.0" />
+        <observation name="average" value="-33.403599" />
+        <observation name="count" value="389.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-205.0" />
+        <observation name="variance" value="2868.849373" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:nameEnd">
+      <dailyData date="25-6-2018">
+        <observation name="UNDEFINED" value="34.0" />
+        <observation name="average" value="-0.068919" />
+        <observation name="count" value="1451.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-2.0" />
+        <observation name="variance" value="0.08987" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="UNDEFINED" value="82.0" />
+        <observation name="average" value="-0.051831" />
+        <observation name="count" value="4013.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-3.0" />
+        <observation name="variance" value="0.047362" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="UNDEFINED" value="73.0" />
+        <observation name="average" value="-0.082458" />
+        <observation name="count" value="2571.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-2.0" />
+        <observation name="variance" value="0.087327" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="UNDEFINED" value="50.0" />
+        <observation name="average" value="-0.072661" />
+        <observation name="count" value="1101.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-2.0" />
+        <observation name="variance" value="0.121132" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:position">
+      <dailyData date="25-6-2018">
+        <observation name="average" value="0.204082" />
+        <observation name="count" value="1519.0" />
+        <observation name="max" value="8.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.415833" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="average" value="0.209241" />
+        <observation name="count" value="4177.0" />
+        <observation name="max" value="11.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.535018" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="average" value="0.178874" />
+        <observation name="count" value="2717.0" />
+        <observation name="max" value="13.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.607398" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="average" value="0.193172" />
+        <observation name="count" value="1201.0" />
+        <observation name="max" value="12.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.479433" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prefix">
+      <dailyData date="25-6-2018">
+        <observation name="average" value="-1096.891376" />
+        <observation name="count" value="1519.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1604.0" />
+        <observation name="variance" value="25623.881075" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="average" value="-1093.8791" />
+        <observation name="count" value="4177.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1453.0" />
+        <observation name="variance" value="30929.364205" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="average" value="-1089.235554" />
+        <observation name="count" value="2717.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1756.0" />
+        <observation name="variance" value="50377.380835" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="average" value="-1096.606994" />
+        <observation name="count" value="1201.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1353.0" />
+        <observation name="variance" value="46861.274143" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:priority">
+      <dailyData date="25-6-2018">
+        <observation name="average" value="-0.005267" />
+        <observation name="count" value="1519.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-4.0" />
+        <observation name="variance" value="0.030594" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="average" value="0.944697" />
+        <observation name="count" value="4177.0" />
+        <observation name="max" value="999.0" />
+        <observation name="min" value="-12.0" />
+        <observation name="variance" value="884.28938" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="average" value="0.066249" />
+        <observation name="count" value="2717.0" />
+        <observation name="max" value="100.0" />
+        <observation name="min" value="-2.0" />
+        <observation name="variance" value="13.375424" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="average" value="0.008326" />
+        <observation name="count" value="1201.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="-1.0" />
+        <observation name="variance" value="0.008801" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_explicitlyImported">
+      <dailyData date="25-6-2018">
+        <observation name="UNDEFINED" value="35.0" />
+        <observation name="average" value="109.454796" />
+        <observation name="count" value="1449.0" />
+        <observation name="max" value="300.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="15918.379161" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="UNDEFINED" value="83.0" />
+        <observation name="average" value="100.747943" />
+        <observation name="count" value="4011.0" />
+        <observation name="max" value="300.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="12749.211263" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="UNDEFINED" value="72.0" />
+        <observation name="average" value="104.041974" />
+        <observation name="count" value="2573.0" />
+        <observation name="max" value="300.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="15676.466859" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="UNDEFINED" value="42.0" />
+        <observation name="average" value="101.253357" />
+        <observation name="count" value="1117.0" />
+        <observation name="max" value="300.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="15736.674265" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_knownElement">
+      <dailyData date="25-6-2018">
+        <observation name="UNDEFINED" value="35.0" />
+        <observation name="average" value="1.36922" />
+        <observation name="count" value="1449.0" />
+        <observation name="max" value="8.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="7.867883" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="UNDEFINED" value="83.0" />
+        <observation name="average" value="0.825729" />
+        <observation name="count" value="4011.0" />
+        <observation name="max" value="8.0" />
+        <observation name="min" value="-1.0" />
+        <observation name="variance" value="6.014425" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="UNDEFINED" value="72.0" />
+        <observation name="average" value="0.646716" />
+        <observation name="count" value="2573.0" />
+        <observation name="max" value="8.0" />
+        <observation name="min" value="-1.0" />
+        <observation name="variance" value="3.615054" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="UNDEFINED" value="42.0" />
+        <observation name="average" value="0.755595" />
+        <observation name="count" value="1117.0" />
+        <observation name="max" value="8.0" />
+        <observation name="min" value="-1.0" />
+        <observation name="variance" value="4.4717" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_sameModule">
+      <dailyData date="25-6-2018">
+        <observation name="UNDEFINED" value="35.0" />
+        <observation name="average" value="0.839199" />
+        <observation name="count" value="1449.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.875372" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="UNDEFINED" value="83.0" />
+        <observation name="average" value="0.898529" />
+        <observation name="count" value="4011.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.865985" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="UNDEFINED" value="72.0" />
+        <observation name="average" value="1.019821" />
+        <observation name="count" value="2573.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.95202" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="UNDEFINED" value="42.0" />
+        <observation name="average" value="0.945389" />
+        <observation name="count" value="1117.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.93556" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_samePsiMember">
+      <dailyData date="25-6-2018">
+        <observation name="UNDEFINED" value="35.0" />
+        <observation name="average" value="0.434783" />
+        <observation name="count" value="1449.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.4973" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="UNDEFINED" value="83.0" />
+        <observation name="average" value="0.385939" />
+        <observation name="count" value="4011.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.485075" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="UNDEFINED" value="72.0" />
+        <observation name="average" value="0.487369" />
+        <observation name="count" value="2573.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.709117" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="UNDEFINED" value="42.0" />
+        <observation name="average" value="0.503133" />
+        <observation name="count" value="1117.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.707139" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:query_length">
+      <dailyData date="25-6-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="1519.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="4177.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="2717.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="1201.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:result_length">
+      <dailyData date="25-6-2018">
+        <observation name="average" value="6.188282" />
+        <observation name="count" value="1519.0" />
+        <observation name="max" value="25.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="10.86918" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="average" value="7.08092" />
+        <observation name="count" value="4177.0" />
+        <observation name="max" value="37.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="13.54624" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="average" value="7.481782" />
+        <observation name="count" value="2717.0" />
+        <observation name="max" value="29.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="17.876044" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="average" value="7.142381" />
+        <observation name="count" value="1201.0" />
+        <observation name="max" value="29.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="18.96084" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:sameWords">
+      <dailyData date="25-6-2018">
+        <observation name="UNDEFINED" value="34.0" />
+        <observation name="average" value="-0.067539" />
+        <observation name="count" value="1451.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-2.0" />
+        <observation name="variance" value="0.088823" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="UNDEFINED" value="82.0" />
+        <observation name="average" value="-0.057314" />
+        <observation name="count" value="4013.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-3.0" />
+        <observation name="variance" value="0.051159" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="UNDEFINED" value="73.0" />
+        <observation name="average" value="-0.091015" />
+        <observation name="count" value="2571.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-2.0" />
+        <observation name="variance" value="0.092555" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="UNDEFINED" value="50.0" />
+        <observation name="average" value="-0.069028" />
+        <observation name="count" value="1101.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-2.0" />
+        <observation name="variance" value="0.120803" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:shorter">
+      <dailyData date="25-6-2018">
+        <observation name="UNDEFINED" value="34.0" />
+        <observation name="average" value="-61.917299" />
+        <observation name="count" value="1451.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-999.0" />
+        <observation name="variance" value="69051.91239" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="UNDEFINED" value="82.0" />
+        <observation name="average" value="-47.285323" />
+        <observation name="count" value="4013.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-999.0" />
+        <observation name="variance" value="37001.380038" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="UNDEFINED" value="73.0" />
+        <observation name="average" value="-68.346169" />
+        <observation name="count" value="2571.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-999.0" />
+        <observation name="variance" value="60171.544086" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="UNDEFINED" value="50.0" />
+        <observation name="average" value="-54.366939" />
+        <observation name="count" value="1101.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-999.0" />
+        <observation name="variance" value="47174.578091" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:simple">
+      <dailyData date="25-6-2018">
+        <observation name="UNDEFINED" value="34.0" />
+        <observation name="average" value="0.013783" />
+        <observation name="count" value="1451.0" />
+        <observation name="max" value="10.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.14716" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="UNDEFINED" value="82.0" />
+        <observation name="average" value="0.004984" />
+        <observation name="count" value="4013.0" />
+        <observation name="max" value="10.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.046952" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="UNDEFINED" value="73.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="2571.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="UNDEFINED" value="50.0" />
+        <observation name="average" value="0.036331" />
+        <observation name="count" value="1101.0" />
+        <observation name="max" value="10.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.292763" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:sorter">
+      <dailyData date="25-6-2018">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="1519.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="4177.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="2717.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="1201.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:statics">
+      <dailyData date="25-6-2018">
+        <observation name="UNDEFINED" value="555.0" />
+        <observation name="average" value="-3.200489" />
+        <observation name="count" value="409.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-5.0" />
+        <observation name="variance" value="0.51462" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="UNDEFINED" value="1468.0" />
+        <observation name="average" value="-3.335213" />
+        <observation name="count" value="1241.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-5.0" />
+        <observation name="variance" value="0.51153" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="UNDEFINED" value="1046.0" />
+        <observation name="average" value="-3.5088" />
+        <observation name="count" value="625.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-5.0" />
+        <observation name="variance" value="0.781258" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="UNDEFINED" value="497.0" />
+        <observation name="average" value="-3.521739" />
+        <observation name="count" value="207.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-5.0" />
+        <observation name="variance" value="0.86032" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:stats">
+      <dailyData date="25-6-2018">
+        <observation name="average" value="2407.769585" />
+        <observation name="count" value="1519.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="17893221.42224" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="average" value="3097.113239" />
+        <observation name="count" value="4177.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="19392390.744168" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="average" value="3296.145749" />
+        <observation name="count" value="2717.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="21040525.684496" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="average" value="3085.758535" />
+        <observation name="count" value="1201.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="18882767.15815" />
+      </dailyData>
+    </factor>
+    <factor id="itemPosition">
+      <dailyData date="25-6-2018">
+        <observation name="0" value="313.0" />
+        <observation name="1" value="38.0" />
+        <observation name="2" value="19.0" />
+        <observation name="3" value="5.0" />
+        <observation name="4" value="6.0" />
+        <observation name="5" value="5.0" />
+        <observation name="7" value="1.0" />
+        <observation name="8" value="1.0" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="0" value="996.0" />
+        <observation name="1" value="116.0" />
+        <observation name="11" value="1.0" />
+        <observation name="2" value="49.0" />
+        <observation name="3" value="23.0" />
+        <observation name="4" value="12.0" />
+        <observation name="5" value="10.0" />
+        <observation name="6" value="5.0" />
+        <observation name="8" value="2.0" />
+        <observation name="9" value="1.0" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="0" value="747.0" />
+        <observation name="1" value="82.0" />
+        <observation name="2" value="34.0" />
+        <observation name="3" value="9.0" />
+        <observation name="4" value="9.0" />
+        <observation name="5" value="1.0" />
+        <observation name="6" value="3.0" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="0" value="294.0" />
+        <observation name="1" value="45.0" />
+        <observation name="10" value="1.0" />
+        <observation name="12" value="1.0" />
+        <observation name="2" value="12.0" />
+        <observation name="3" value="4.0" />
+        <observation name="4" value="2.0" />
+        <observation name="7" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="mnemonicsUsage">
+      <dailyData date="25-6-2018">
+        <observation name="total" value="331.0" />
+        <observation name="withMnemonics" value="20.0" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="total" value="1072.0" />
+        <observation name="withMnemonics" value="105.0" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="total" value="770.0" />
+        <observation name="withMnemonics" value="90.0" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="total" value="310.0" />
+        <observation name="withMnemonics" value="35.0" />
+      </dailyData>
+    </factor>
+    <factor id="prefixLength">
+      <dailyData date="25-6-2018">
+        <observation name="0" value="22.0" />
+        <observation name="1" value="35.0" />
+        <observation name="2" value="131.0" />
+        <observation name="3" value="126.0" />
+        <observation name="4" value="51.0" />
+        <observation name="5" value="10.0" />
+        <observation name="6" value="7.0" />
+        <observation name="7" value="3.0" />
+        <observation name="8" value="2.0" />
+        <observation name="9" value="1.0" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="0" value="63.0" />
+        <observation name="1" value="80.0" />
+        <observation name="10" value="5.0" />
+        <observation name="11" value="2.0" />
+        <observation name="13" value="1.0" />
+        <observation name="2" value="383.0" />
+        <observation name="3" value="355.0" />
+        <observation name="4" value="232.0" />
+        <observation name="5" value="37.0" />
+        <observation name="6" value="31.0" />
+        <observation name="7" value="16.0" />
+        <observation name="8" value="4.0" />
+        <observation name="9" value="6.0" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="0" value="58.0" />
+        <observation name="1" value="57.0" />
+        <observation name="10" value="3.0" />
+        <observation name="11" value="1.0" />
+        <observation name="12" value="1.0" />
+        <observation name="13" value="3.0" />
+        <observation name="17" value="1.0" />
+        <observation name="2" value="253.0" />
+        <observation name="29" value="1.0" />
+        <observation name="3" value="221.0" />
+        <observation name="4" value="198.0" />
+        <observation name="5" value="37.0" />
+        <observation name="6" value="24.0" />
+        <observation name="7" value="12.0" />
+        <observation name="8" value="13.0" />
+        <observation name="9" value="2.0" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="0" value="19.0" />
+        <observation name="1" value="31.0" />
+        <observation name="10" value="1.0" />
+        <observation name="13" value="1.0" />
+        <observation name="2" value="123.0" />
+        <observation name="3" value="71.0" />
+        <observation name="4" value="64.0" />
+        <observation name="5" value="20.0" />
+        <observation name="6" value="14.0" />
+        <observation name="7" value="6.0" />
+        <observation name="8" value="7.0" />
+        <observation name="9" value="3.0" />
+      </dailyData>
+    </factor>
+    <factor id="timeBetweenTyping">
+      <dailyData date="25-6-2018">
+        <observation name="average" value="178.449887" />
+        <observation name="count" value="1327.0" />
+      </dailyData>
+      <dailyData date="26-6-2018">
+        <observation name="average" value="191.247194" />
+        <observation name="count" value="4276.0" />
+      </dailyData>
+      <dailyData date="27-6-2018">
+        <observation name="average" value="200.565869" />
+        <observation name="count" value="2467.0" />
+      </dailyData>
+      <dailyData date="28-6-2018">
+        <observation name="average" value="247.977639" />
+        <observation name="count" value="1118.0" />
+      </dailyData>
+    </factor>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="one-course-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="one-course-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="coursecode&#9;null&#9;null&#10;HOMEWORK_NOT_BELONG_TO_COURSE&#9;PSI&#9;JAVA://onecourse.customenmu.Status#HOMEWORK_NOT_BELONG_TO_COURSE&#10;contains&#9;PSI&#9;JAVA://onecourse.dao.CoursePostDiscussionDAO#contains&#10;getAuthorId&#9;PSI&#9;JAVA://onecourse.models.CoursePostDiscussion#getAuthorId&#10;loginTimeoutCountdown&#9;PSI&#9;JAVA://com.mysql.jdbc.StandardSocketFactory#loginTimeoutCountdown&#10;loginTimeout&#9;PSI&#9;JAVA://com.mysql.jdbc.StandardSocketFactory#loginTimeoutCountdown&#10;INS&#9;PSI&#9;JAVA://onecourse.dao.UserRole#INSTRUCTOR" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.1150748" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\DevFiles\one-course-server\web\user\instructor" />
+      <recent name="F:\DevFiles\one-course-server\web\class\instructor" />
+      <recent name="F:\DevFiles\one-course-server\web\class\manage" />
+      <recent name="F:\DevFiles\one-course-server\web\file" />
+      <recent name="F:\DevFiles\one-course-server\web\class" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="onecourse.customenmu" />
+      <recent name="onecourse.dao" />
+      <recent name="onecourse.status" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="onecourse.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\DevFiles\one-course-server\web\class\student" />
+      <recent name="F:\DevFiles\one-course-server\web\webfonts" />
+      <recent name="F:\DevFiles\one-course-server\web\js" />
+      <recent name="F:\DevFiles\one-course-server\web\css" />
+      <recent name="F:\DevFiles\one-course-server\web\class\instructor" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.one-course-server">
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.81" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_one-course-server" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51352" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <name>CONTEXT_XML</name>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <name>STAGING</name>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" value="" />
+          <host-id />
+        </data>
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="65529" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="index.html" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.81" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.html" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="one-course-server:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_one-course-server" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51352" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="one-course-server:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="one-course-server" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.81" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://192.168.199.235:55555/" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="update-resources" />
+      <deployment>
+        <artifact name="one-course-server:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_one-course-server_2" />
+        <option name="HTTP_PORT" value="55555" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51352" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="one-course-server:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.one-course-server" />
+      <item itemvalue="Tomcat Server.index.html" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Tomcat Server.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ecd81bf8-fa1c-405d-ab05-6aeb6420d600" name="Default" comment="" />
+      <created>1529898775088</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1529898775088</updated>
+      <workItem from="1529898779585" duration="11605000" />
+      <workItem from="1529924603885" duration="9390000" />
+      <workItem from="1529934140759" duration="357000" />
+      <workItem from="1529938225046" duration="13216000" />
+      <workItem from="1529972290960" duration="8389000" />
+      <workItem from="1529981123533" duration="906000" />
+      <workItem from="1529982056164" duration="5569000" />
+      <workItem from="1529993485592" duration="55233000" />
+      <workItem from="1530088314471" duration="20000" />
+      <workItem from="1530088337479" duration="34475000" />
+      <workItem from="1530167316240" duration="39000" />
+      <workItem from="1530167796311" duration="46000" />
+      <workItem from="1530167845429" duration="47000" />
+      <workItem from="1530168002848" duration="22162000" />
+      <workItem from="1530201727439" duration="93689000" />
+      <workItem from="1530418651472" duration="787000" />
+      <workItem from="1530425136474" duration="929000" />
+      <workItem from="1530428490656" duration="5019000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="261878000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3278867" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="12" weight="0.329718" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32995737" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3224401" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.26898047" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38059703" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.38562092" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32897604" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" order="12" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3224401" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24946696" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info id="Designer" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.26898047" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32897604" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32837406" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32995737" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/onecourse/dao/CoursePostDiscussionDAO.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/web/js/index.js</url>
+          <line>18</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="44" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>authStatus</expression-string>
+        <language-id>JSP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>dir.mkdir()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>JSONHelper.getSingleJSONObject(fileParseStatus.getJsonObject())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>upload.parseRequest(request)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>PinyinHelper.toHanyuPinyinStringArray(pure_name.charAt(0), format)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/class/manage/uploadedHomeworkList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/class/manage/stulist.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/class/adminlist.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/class/getCourseInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/class/resource.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="25" column="57" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/logout.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/onecourse/dao/CourseHomeworkUploadedFileDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/file/upload.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/onecourse/dao/CourseHomeworkDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/class/homework.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="79" column="59" lean-forward="true" selection-start-line="79" selection-start-column="59" selection-end-line="79" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/class/instructor/checkHwSubmit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="53" column="40" lean-forward="true" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/class/student/homework.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2897">
+          <caret line="267" column="7" lean-forward="true" selection-start-line="267" selection-start-column="7" selection-end-line="267" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/onecourse/models/CourseStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/onecourse/models/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/onecourse/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/onecourse/dao/CoursePostDiscussionDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/onecourse/models/CoursePost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/onecourse/models/CourseHomework.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/onecourse/models/CoursePostDiscussion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/onecourse/models/CourseHomeworkUploadedFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/onecourse/models/CourseManage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/home.js" />
+    <entry file="file://$PROJECT_DIR$/web/js/course-common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/qa3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/logout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/onecourse/customenmu/BaseStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="19" column="78" lean-forward="true" selection-start-line="19" selection-start-column="78" selection-end-line="19" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/onecourse/utils/DBHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/onecourse/dao/BaseDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/onecourse/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1091">
+          <caret line="69" column="14" lean-forward="true" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/signup.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="72" column="79" selection-start-line="72" selection-start-column="79" selection-end-line="72" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="755">
+          <caret line="70" column="8" lean-forward="true" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/course-instructor-init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/register.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/base_white_nav.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/class/instructor/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/class/student/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/instructor/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="140" column="56" selection-start-line="140" selection-start-column="56" selection-end-line="140" selection-end-column="56" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ol#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/student/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/cards.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="179" column="14" lean-forward="true" selection-start-line="179" selection-start-column="14" selection-end-line="179" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/q&amp;a.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/course_common.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/onecourse/customenmu/Status.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/qa.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="360" column="17" lean-forward="true" selection-start-line="360" selection-start-column="17" selection-end-line="360" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/class/instructor/homework.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="66" column="41" lean-forward="true" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/course-student-init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>one-course-server:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.1150748" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (one-course-server)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>one-course-server</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

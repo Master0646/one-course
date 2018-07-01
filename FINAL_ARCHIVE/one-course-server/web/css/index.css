@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background: #4682B4;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content {
+    width: 100%;
+    margin: 0 auto 100px;
+    padding: 0;
+    height: 600px;
+    min-height: 600px;
+}
+
+.content-inner {
+    width: 60%;
+    min-width: 768px;
+    margin: 100px auto 0;
+}
+
+.introduction {
+    float: left;
+}
+
+.login {
+    float: right;
+}
+
+.introduction span {
+    display: block;
+    text-align: left;
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.introduction ul {
+    font-size: 1.4rem;
+}
+
+.login {
+    width: 40%;
+    /*min-width: 30em;*/
+    margin: 0 auto;
+    text-align: center;
+    background: url("../images/bg.jpg") 0px 0px no-repeat;
+    background-size: cover; 
+    padding: 4em;
+    height: 80%;
+}
+
+.head {
+    padding: 1em 0;
+}
+
+form {
+    padding: 0 1%;
+}
+
+.head img {
+    margin: 2em 0;
+}
+
+.login #email {
+    width: 81.2%;
+    padding: 1.25em 1em 1.25em 4em;
+    color: #283440;
+    font-size: 16px;
+    outline: none;
+    font-weight: 500;
+    border: none;
+    border-bottom: 1px solid #C0C3C8;
+    font-family: 'Open Sans', sans-serif;
+    background: url("../images/user.png") no-repeat 14px 15px #ffffff;
+    border-top-left-radius: 0.3em;
+    border-top-right-radius: 0.3em;
+}
+
+.login #password {
+    width: 81.2%;
+    padding: 1.25em 1em 1.25em 4em;
+    color: #283440;
+    font-size: 16px;
+    outline: none;
+    font-weight: 500;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    background: url("../images/password.png") no-repeat 14px 15px #ffffff;
+    border-bottom-left-radius: 0.3em;
+    -webkit-border-bottom-right-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
+}
+
+.btns-submit {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-signin {
+    width: 18em;
+    margin-top: 3.4em;
+}
+
+.login input[type="button"] {
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    padding: 17px 15px;
+    width: 100%;
+    border: 3px solid #f9671e;
+    background: #f9671e;
+    border-radius: 0.3em;
+}
+
+input[type="submit"]:hover {
+    background: none;
+    border: 3px solid #f9671e;
+    color: #f9671e;
+}
+
+.intro-content {
+    line-height: 2em;
+    font-size: 1.5em;
+    color: #FFF;
+}

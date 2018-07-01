@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+.navbar ul {
+    padding-left: 0;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+.navbar {
+    width: 100%;
+    min-width: 1000px;
+    margin: 0 auto;
+    background: #3e7aab;
+}
+
+.navbar-inner {
+    width: 95%;
+    height: 40px;
+    margin: 0 auto;
+    padding-top: 11px;
+    position: relative;
+}
+
+.navbar-header {
+    display: inline-block;
+    width: 135px;
+    position: absolute;
+    left: 0;
+}
+
+.navbar-brand {
+    display: block;
+    width: 135px;
+    height: 18px;
+    background: url("../images/logo_white.png") no-repeat;
+    background-size: 135px auto;
+    cursor: pointer;
+}
+
+.class-navbar-middle {
+    display: block;
+    width: 50%;
+    min-width: 500px;
+    position: absolute;
+    left: 250px;
+    margin: -2px 0 0;
+}
+
+.class-navbar-items {
+    font-size: 12px;
+    font-weight: bolder;
+    display: inline-block;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.class-link {
+    text-decoration: none;
+    color: #D9E4EC;
+    text-shadow: #2e5e83 1px 1px 0;
+    transition: 0.3s;
+}
+
+.class-link:visited {
+    color: #D9E4EC;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.class-link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.class-navbar-right {
+    display: block;
+    width: auto;
+    height: 26px;
+    position: absolute;
+    right: 0;
+    margin: -4px 0 0;
+}
+
+.class-navbar-right > li {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.navbar-profile-picture {
+    height: 26px;
+    width: 26px;
+    border: solid 1px lightblue;
+    box-shadow: 0 0 1px #ffffff;
+}
+
+.class-navbar-right .class-navbar-items {
+    font-size: 12px;
+    margin-top: -4px;
+}
+

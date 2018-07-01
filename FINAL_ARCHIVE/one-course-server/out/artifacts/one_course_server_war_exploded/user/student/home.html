@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>个人中心</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../../css/base_blue_nav.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="../../css/base_btn.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="../../css/home_common.css"/>
+    <style>
+        .course-info-box {
+            width: 100%;
+            color: #3a87ad;
+            background-color: #d9edf7;
+            border-radius: 4px;
+            border: 1px solid #fbeed5;
+            text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+            padding: 8px 35px;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: inline-block;
+            margin-bottom: .5rem;
+        }
+
+        .form-text-input {
+            width: 80%;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav id="navbar" class="navbar">
+    <div class="navbar-inner">
+        <div class="navbar-header">
+            <a href="/15336036_v9/user/student/home.html" class="navbar-brand" id="navbar-brand-link"></a>
+        </div>
+        <ul class="navbar-nav class-navbar-right">
+            <li>
+                <img class="navbar-profile-picture" src="../../images/default_user.png">
+            </li>
+            <li class="class-navbar-items">
+                <a id="username" href="#" class="class-link">用户名</a>
+            </li>
+            <li class="class-navbar-items">
+                <a id="logout" class="class-link" href="/15336036_v9/logout.html">注销</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="home-main">
+    <div class="home-main-header">
+        <div class="home-main-header-content">
+            <p id="home-welcome">，欢迎你！</p>
+            <h1>个人中心</h1>
+        </div>
+    </div>
+    <div class="home-main-inner">
+        <!--<div class="home-main-item" style="margin-bottom: 50px;">-->
+        <!--<h2 class="course-list-head">创建新课程</h2>-->
+        <!--<form>-->
+        <!--<div class="form-group">-->
+        <!--<label for="create-class-name">课程名称</label>-->
+        <!--<input type="text" name="name" id="create-class-name" placeholder="请输入课程名称" class="form-text-input">-->
+        <!--</div>-->
+        <!--<div class="form-group">-->
+        <!--<label for="create-class-name">开课院系</label>-->
+        <!--<input type="text" name="name" id="create-class-school" placeholder="请输入开课院系"-->
+        <!--class="form-text-input">-->
+        <!--</div>-->
+        <!--<div class="form-group">-->
+        <!--<label for="create-class-name">开课学年</label>-->
+        <!--<input type="text" name="name" id="create-class-year" placeholder="请输入开课学年" class="form-text-input">-->
+        <!--</div>-->
+        <!--<div class="form-group">-->
+        <!--<label>开课学期</label>-->
+        <!--<div class="form-radio">-->
+        <!--<label><input type="radio" name="semester" value="SPR" class="form-radio"> 春季学期</label>-->
+        <!--</div>-->
+        <!--<div class="form-radio">-->
+        <!--<label><input type="radio" name="semester" value="ATU" class="form-radio"> 秋季学期</label>-->
+        <!--</div>-->
+        <!--<div class="form-radio">-->
+        <!--<label><input type="radio" name="semester" value="OTH" class="form-radio"> 其他学期</label>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="form-group">-->
+        <!--<button type="submit" class="btn default-btn huge-btn" id="create-class-btn">创建课程</button>-->
+        <!--</div>-->
+        <!--</form>-->
+        <!--<iframe width="0" height="0" name="actionframe" style="display: none"></iframe>-->
+        <!--</div>-->
+        <div class="home-main-item">
+            <h2 class="course-list-head">加入新课程</h2>
+            <form method="post" enctype="application/x-www-form-urlencoded" class="join-course-form">
+                <input type="text" class="form-text-input" name="courseCode" placeholder="输入课程代码以加入新课程..."
+                       id="join-coursecode">
+                <button class="form-submit-btn btn default-btn" type="button" id="join-class-btn">加入课程</button>
+            </form>
+        </div>
+        <div class="home-main-item">
+            <h2 class="course-list-head" id="course-list-head">已经加入的课程</h2>
+            <div class="course-info-item" data-hw-role="hw-no-content">
+                <div class="course-info-box">
+                    <h4 class="course-hw-detail" style="color: gray; font-style: italic">您尚未加入任何课程。</h4>
+                </div>
+            </div>
+            <ol class="course-list-body">
+                <li class="course-list-item" style="display: none">
+                    <div class="course-list-item-content">
+                            <span class="course-list-item-name-wrapper">
+                                <a class="course-list-item-link" href="#">
+                                    <span class="course-list-item-name">课程名称</span>
+                                </a>
+                            </span>
+                        <p class="course-list-item-intro">该课程暂无介绍</p>
+                        <p class="course-list-item-info">数据科学与计算机学院 - 2018春季学期</p>
+                    </div>
+                </li>
+            </ol>
+        </div>
+
+    </div>
+</div>
+</body>
+<script src="../../js/common.js"></script>
+<script>
+    window.onload = function (ev) {
+        if (getcookie("session") === undefined) {
+            alert("您还未登陆，确认后将跳转到登陆页面");
+            window.location.href = getPagePrefix() + "/";
+            return;
+        }
+        var role = getcookie("role");
+        if (role !== "STUDENT") {
+            window.location.href = getPagePrefix() + "/user/instructor/home.html";
+        }
+        else {
+            superInit();
+        }
+    };
+
+    function superInit() {
+        getJsonFromServer("/home.jsp", null, function () {
+            if (window.localjson.code === -80006) {
+                var exp = new Date();
+                exp.setTime(exp.getTime() - 1);
+                var session = getcookie("session");
+                if (session !== null || session !== undefined) {
+                    alert("您还未登陆，确认后将跳转到登陆页面");
+                    window.location.href=getPagePrefix() + "/";
+                    return;
+                }
+
+            }
+            initNav();
+            initTitle();
+            addJoinClassListener();
+            initCourseList();
+        });
+    }
+
+
+    function initTitle() {
+        var title = document.getElementById("home-welcome");
+        title.innerText = getcookie("email") + "，欢迎你！";
+    }
+
+    function initCourseList() {
+        if (window.localjson.code === 202) return;
+        document.querySelector('[data-hw-role="hw-no-content"]').style.display = "none";
+        var courseListContainer = document.querySelector(".course-list-body");
+        var base_course_item = document.querySelector(".course-list-item");
+        for (var i = 0; i < window.localjson.content.length; i++) {
+            var new_item = createCourseItem(base_course_item, window.localjson.content[i]);
+            courseListContainer.appendChild(new_item);
+        }
+    }
+
+    function addJoinClassListener() {
+        var submit_btn = document.getElementById("join-class-btn");
+        submit_btn.addEventListener("click", function (event) {
+            event.preventDefault();
+            var code = document.getElementById("join-coursecode").value;
+            var params = "courseCode=" + code;
+            getJsonFromServer("/join-class.jsp", params, function () {
+                handleStatus();
+                if (window.localjson.code === 200) {
+                    alert("加入课程成功！");
+                    window.location.reload();
+                }
+
+            })
+        });
+    }
+
+    function createCourseItem(base_course_item, courseInfo) {
+        var new_item = base_course_item.cloneNode(true);
+        var name = new_item.querySelector(".course-list-item-name");
+        var link = new_item.querySelector(".course-list-item-link");
+        var intro = new_item.querySelector(".course-list-item-intro");
+        var info = new_item.querySelector(".course-list-item-info");
+        name.innerText = courseInfo.name;
+        link.href = getPagePrefix() + "/class/student/index.html?courseCode=" + courseInfo.courseCode;
+        intro.innerText = (courseInfo.intro === "" || courseInfo.intro === undefined) ? "该课程暂无介绍。" : courseInfo.intro;
+        info.innerText = getCourseInfo(courseInfo);
+        new_item.removeAttribute("style");
+        return new_item;
+    }
+
+    function getCourseInfo(courseInfo) {
+        var school = courseInfo.school;
+        var year = courseInfo.year;
+        var semester = courseInfo.semester;
+        if (semester === "SPR") semester = "春季学期";
+        else if (semester === "ATU") semester = "秋季学期";
+        else semester = "其他学期";
+        return school + " - " + year + " " + semester;
+    }
+
+    function handleStatus() {
+        if (invalidStatusHandler(-80006, "您还未进行登录，点击确认后将跳转到登录界面", "/"))
+            return;
+        if (invalidStatusHandler(-10402, "您已经是该课程的成员了！", "#")) {
+            return;
+        }
+        if (invalidStatusHandler(-10202, "该课程不存在，请检查输入！", "#"))
+            return;
+        if (!(window.localjson.code === 200 || window.localjson.code === 201 || window.localjson.code === 202)) {
+            alert("状态码：" + window.localjson.code + "\n服务器开小差了，请稍后重试！");
+            // window.location.href="/home.html";
+        }
+    }
+</script>
+
+</html>

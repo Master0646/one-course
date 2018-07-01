@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+.home-main {
+    width: 100%;
+    min-width: 1000px;
+    min-height: 500px;
+    margin: 0 auto;
+}
+
+.home-main-header {
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+.home-main-header-content,
+.home-main-inner {
+    width: 50%;
+    min-width: 1000px;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.home-main-item {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.home-main-item h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.course-list-body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    line-height: 1.5;
+    color: #24292e;
+    padding-left: 0;
+    margin-top: 0;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.course-list-item {
+    border: 1px #d1d5da solid;
+    border-radius: 4px;
+    padding: 16px;
+    display: flex;
+    width: 480px;
+    margin: 0 0 15px;
+}
+
+.course-list-item-content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.course-list-item-name-wrapper {
+    display: block;
+}
+
+.course-list-item-intro {
+    color: #586069;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    display: block;
+    flex: 1 0 auto;
+}
+
+.course-list-item-info {
+    color: #586069;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.course-list-item-link {
+    color: #0366d6;
+    text-decoration: none;
+    font-weight: 600;
+    background-color: transparent;
+}
+
+.course-list-item-link:hover {
+    text-decoration: underline;
+    outline-width: 0;
+}
+
+.join-course-form {
+    display: block;
+    position: relative;
+}
+
+.form-text-input {
+    display: inline-block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    overflow: visible;
+    margin-bottom: 12px;
+}
+
+.form-submit-btn {
+    font-size: 1rem;
+    position: absolute;
+    right: 0;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    margin-bottom: 12px;
+    margin-left: 20px;
+}

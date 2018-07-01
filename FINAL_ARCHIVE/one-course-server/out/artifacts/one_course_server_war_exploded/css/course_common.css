@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+.course-main {
+    width: 100%;
+    min-width: 1000px;
+    min-height: 500px;
+    margin: 0 auto;
+}
+
+.course-main-header {
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+.course-main-header-content,
+.course-main-inner {
+    width: 50%;
+    min-width: 1000px;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.course-info-item {
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.course-info-item h3 {
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+/* 课程介绍样式 */
+
+.course-info-box {
+    width: 100%;
+    color: #3a87ad;
+    background-color: #d9edf7;
+    border-radius: 4px;
+    border: 1px solid #fbeed5;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    padding: 8px 35px;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    line-height: 1.5;
+}
+
+.form-text-input {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    overflow: visible;
+    margin-bottom: 12px;
+}

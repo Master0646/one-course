@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Onecourse</title>
+    <!-- 保证在所有浏览器上都具有相同的样式 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/base_btn.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/base_white_nav.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/index.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/register.css"/>
+
+</head>
+
+<body>
+<nav id="navbar" class="navbar">
+    <div class="navbar-inner">
+        <div class="navbar-header">
+            <a href="/15336036_v9/" class="navbar-brand"></a>
+        </div>
+        <ul class="navbar-nav navbar-right sign-up-navbar">
+            <li class="dropdown">
+                <button type="button" class="btn default-btn" onclick="window.location.href='register.html'">注册</button>
+            </li>
+            <li>
+                <button type="button" class="btn default-btn" onclick="window.location.href='index.html'">登录</button>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class='content'>
+    <div class="content-inner">
+        <div class="introduction">
+            <span>One Course</span>
+            <div class="intro-content">
+                <ul>
+                    <li>给师生提供便捷课程管理交互的平台</li>
+                    <li>选择你最感兴趣的课程加入</li>
+                    <li>方便的分组课程交流</li>
+                    <li>统一的课程管理工具</li>
+                    <li>自由发博，和同学一起寻找答案</li>
+                </ul>
+            </div>
+        </div>
+        <div class="login">
+            <div class="head">
+                <img src="images/login.png" class="img-responsive"/>
+            </div>
+            <form id='login-data'>
+                <input type="text" id='email' name="email" class="text" value="邮箱"
+                       onfocus="if (this.value==='邮箱')this.value = '';"
+                       onblur="if (this.value === '') {this.value = '邮箱';}">
+                <input type="text" id='password' name="password" value="密码"
+                       onfocus="if (this.value==='密码') {this.value = ''; this.type='password'}"
+                       onblur="if (this.value==='') {this.type='text'; this.value='密码'}">
+                <div class='btns-submit'>
+                    <div class="btn-signin">
+                        <input id='submit' type="button" value="登陆"/>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+<script src="js/common.js"></script>
+<script>
+    window.onload = function (ev) {
+        if (getcookie("session") !== undefined) {
+            var role = getcookie("role");
+            if (role === "INSTRUCTOR") {
+                window.location.href = getPagePrefix() + "/user/instructor/home.html";
+            }
+            else if (role === "STUDENT"){
+                window.location.href = getPagePrefix() + "/user/student/home.html";
+            }
+        }
+    }
+</script>
+</html>

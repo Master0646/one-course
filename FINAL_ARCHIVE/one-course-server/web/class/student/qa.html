@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <title>Q & A</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <!-- 保证在所有浏览器上都具有相同的样式 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../../css/base_blue_nav.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="../../css/q&a.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../../css/cards.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../../css/postForm.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../../css/questionEdit.css">
+    <link rel="stylesheet" type="text/css" href="../../css/fontawesome-all.css"/>
+    <script type="text/javascript" src="../../js/qa.js"></script>
+</head>
+
+<body>
+<nav id="navbar" class="navbar">
+    <div class="navbar-inner">
+        <div class="navbar-header">
+            <a href="/user/instructor/home.html" class="navbar-brand" id="navbar-brand-link"></a>
+        </div>
+        <ul class="navbar-nav class-navbar-middle">
+            <li class="class-navbar-items">
+                <a class="class-link" id="course-code">课程代码</a>
+            </li>
+            <li class="class-navbar-items">
+                <a class="class-link" id="course-qa">Q & A</a>
+            </li>
+            <li class="class-navbar-items">
+                <a class="class-link" id="course-homework">课程作业</a>
+            </li>
+            <!--<li class="class-navbar-items">-->
+            <!--<a class="class-link" id="course-resource">课程资源</a>-->
+            <!--</li>-->
+            <!--<li class="class-navbar-items">-->
+            <!--<a class="class-link" id="course-manage">课程管理</a>-->
+            <!--</li>-->
+        </ul>
+        <ul class="navbar-nav class-navbar-right">
+            <li>
+                <img class="navbar-profile-picture" src="../../images/default_user.png">
+            </li>
+            <li class="class-navbar-items">
+                <a id="username" class="class-link">用户名</a>
+            </li>
+            <li class="class-navbar-items">
+                <a id="logout" class="class-link" href="/logout.html">注销</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div id="page_main">
+    <div class="views" id="views">
+        <div id="page_left">
+            <div id="new_post_button_container">
+                <button id="new_post_button" type="button" name="post" onclick="getNewPostPage()">
+                    <i class="fas fa-file"></i>&nbsp&nbsp New Post
+                </button>
+            </div>
+            <div id="post_container">
+                <ul id="post_list"></ul>
+            </div>
+        </div>
+        <div id="page_center">
+        </div>
+    </div>
+    <div class="page_bottom_bar"></div>
+</div>
+<script src="../../js/common.js"></script>
+<script src="../../js/course-common.js"></script>
+<script src="../../js/course-student-init.js"></script>
+<script>
+    window.coursecode = getCurrentUrlParam("courseCode");
+    initNav();
+    setCourseStuLink(window.coursecode);
+    var code = document.getElementById("course-code");
+    code.innerText = window.coursecode;
+
+    var postList = document.getElementById("post_list");
+    var page_left = document.getElementById("page_left");
+    var page_center = document.getElementById("page_center");
+    getAllPost(postList);
+    page_left.style.height = document.documentElement.clientHeight - 40 + "px";
+
+    var username = document.querySelector("#username");
+    username.innerHTML = getCookie("email");
+
+    window.onresize = function () {
+        var width = page_left.clientWidth;
+        page_center.style.left = width + "px";
+        page_center.style.width = Math.max(document.documentElement.clientWidth, 1000) - width + "px";
+    }
+</script>
+</body>
+</html>

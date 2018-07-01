@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+</body>
+<script src="js/common.js"></script>
+<script>
+    getJsonFromServer("/logout.jsp", null, function () {
+        window.location.href = getPagePrefix() + "/";
+    })
+</script>
+</html>
